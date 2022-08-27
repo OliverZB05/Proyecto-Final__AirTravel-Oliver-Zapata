@@ -1,0 +1,1604 @@
+/* Inicio del reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Final del reset */
+
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Qs{
+
+    .main__Plantilla-Qs{
+        margin-top: 90px;
+        height: 100%;
+        background-color: rgba(0, 255, 200, 0);
+
+//----------------🟡Mq-Titulo-Qs🟡----------------
+        .Mq-Titulo-Qs{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($Cols-Qs, Titulos);
+
+            .Titulo_Qs{
+                font-size: 45px;
+            }
+        }
+
+        .MqTextP{
+            height: 133px;
+            width: 100%;
+            background-color: map-get($Cols-Qs, MqText);
+            border-radius: 20px;
+
+            .MqTextP__TextQs1{
+                font-size: 25px;
+            }
+        }
+//----------------🟡Mq-Titulo-Qs🟡----------------
+
+
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+.Mq-Titulo-Qs2{
+    height: 55px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs2{
+        font-size: 40px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+
+        .MqText1{
+            height: 173px;
+            width: 100%;
+            background-color: map-get($Cols-Qs, MqText);
+            border-radius: 20px;
+            margin-top: 10px;
+
+            .MqText1__TextQs2{
+                font-size: 25px;
+            }
+        }
+
+        .MqIMG1{
+            height: 260px;
+            width: 100%;
+            background-color: map-get($Cols-Qs, MqIMG);
+
+                .MqIMG1__IMG1{
+                    position: relative;
+                    cursor: pointer;
+                    overflow: hidden;
+                    height: 253px;
+                    width: 220px;
+                    background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+                    @include Bg;
+                    background-color: rgb(0, 0, 0);
+                    border-radius: 30px;
+                    margin-left: 80px;
+                }
+
+                .MqIMG1__IMG1::before{
+                    content: "¡Las mejores ofertas!";
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    border-radius: 30px;
+                    background-color: rgba(170, 3, 204, 0.411);
+                    transform: scale(0);
+                    transition: transform .6s;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: "fuenteCRG";
+                    font-size: 20px;
+                }
+
+                .MqIMG1__IMG1:hover::before{
+                    transform: scale(1) rotate(360deg);
+                }
+        }
+
+
+
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+.Mq-Titulo-Qs3{
+    height: 55px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs3{
+        font-size: 40px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+.MqIMG2{
+    height: 260px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+
+    .MqIMG2__IMG2{
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        height: 253px;
+        width: 220px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 80px;
+    }
+
+    .MqIMG2__IMG2::before{
+        content: "¡Los mejores viajes!";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 30px;
+        background-color: rgba(247, 27, 19, 0.411);
+        transform: scale(0);
+        transition: transform .6s;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "fuenteCRG";
+        font-size: 20px;
+    }
+
+    .MqIMG2__IMG2:hover::before{
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+.MqText2{
+    height: 203px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-top: 10px;
+
+    .MqText2__TextQs3{
+        font-size: 25px;
+    }
+}
+}
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+
+
+// ------------- 📕Media query moviles muy pequeños📕 -------------
+@media(max-width: 396px){      
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Qs{
+
+    .main__Plantilla-Qs{
+        margin-top: 90px;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0);
+
+//----------------🟡Mq-Titulo-Qs🟡----------------
+.Mq-Titulo-Qs{
+    height: 40px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+    margin-bottom: 9px;
+
+    .Titulo_Qs{
+        font-size: 33px;
+    }
+}
+
+.MqTextP{
+    height: 113px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+
+    .MqTextP__TextQs1{
+        font-size: 12px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs🟡----------------
+
+
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+    .Mq-Titulo-Qs2{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs2{
+    font-size: 28px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+
+.MqText1{
+    height: 160px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+    .MqText1__TextQs2{
+        font-size: 12px;
+    }
+}
+
+.MqIMG1{
+    height: 350px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    display: flex;
+    justify-content: center;
+
+    .MqIMG1__IMG1{
+        height: 333px;
+        width: 245px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+    }
+
+
+    .MqIMG1__IMG1::before{
+        content: "¡Las mejores ofertas!";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 30px;
+        background-color: rgba(170, 3, 204, 0.411);
+        transform: scale(0);
+        transition: transform .6s;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "fuenteCRG";
+        font-size: 25px;
+    }
+    
+    .MqIMG1__IMG1:hover::before{
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs3{
+    font-size: 28px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 350px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    display: flex;
+    justify-content: center;
+
+        .MqIMG2__IMG2{
+        height: 333px;
+        width: 245px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+        }
+
+
+        .MqIMG2__IMG2::before{
+            content: "¡Los mejores viajes!";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 30px;
+            background-color: rgba(247, 27, 19, 0.411);
+            transform: scale(0);
+            transition: transform .6s;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "fuenteCRG";
+            font-size: 25px;
+        }
+
+        .MqIMG2__IMG2:hover::before{
+            transform: scale(1) rotate(360deg);
+        }
+}
+
+    .MqText2{
+    height: 155px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+        .MqText2__TextQs3{
+            font-size: 12px;
+        }
+}
+
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+
+
+
+@media(min-width: 397px) and (max-width: 577px){   
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Qs{
+
+    .main__Plantilla-Qs{
+        margin-top: 90px;
+        height: 100%;
+        background-color: rgba(243, 77, 77, 0);
+
+//----------------🟡Mq-Titulo-Qs🟡----------------
+.Mq-Titulo-Qs{
+    height: 55px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs{
+        font-size: 40px;
+    }
+}
+
+.MqTextP{
+    height: 103px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+
+    .MqTextP__TextQs1{
+        font-size: 15px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs🟡----------------
+
+
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+.Mq-Titulo-Qs2{
+height: 39px;
+width: 100%;
+background-color: map-get($Cols-Qs, Titulos);
+
+.Titulo_Qs2{
+font-size: 35px;
+}
+}
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+
+.MqText1{
+    height: 155px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+    .MqText1__TextQs2{
+        font-size: 15px;
+    }
+}
+
+.MqIMG1{
+    height: 350px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    display: flex;
+    justify-content: center;
+
+    .MqIMG1__IMG1{
+        height: 333px;
+        width: 245px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+    }
+
+
+    .MqIMG1__IMG1::before{
+        content: "¡Las mejores ofertas!";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 30px;
+        background-color: rgba(170, 3, 204, 0.411);
+        transform: scale(0);
+        transition: transform .6s;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "fuenteCRG";
+        font-size: 25px;
+    }
+    
+    .MqIMG1__IMG1:hover::before{
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs3{
+    font-size: 35px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 350px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    display: flex;
+    justify-content: center;
+
+        .MqIMG2__IMG2{
+        height: 333px;
+        width: 245px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+        }
+
+
+        .MqIMG2__IMG2::before{
+            content: "¡Los mejores viajes!";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 30px;
+            background-color: rgba(247, 27, 19, 0.411);
+            transform: scale(0);
+            transition: transform .6s;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "fuenteCRG";
+            font-size: 25px;
+        }
+
+        .MqIMG2__IMG2:hover::before{
+            transform: scale(1) rotate(360deg);
+        }
+}
+
+    .MqText2{
+    height: 155px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+        .MqText2__TextQs3{
+        font-size: 15px;
+        }
+}
+
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📕Media query moviles muy pequeños📕 -------------
+
+
+// ------------- 📕Media query moviles pequeños📕 -------------
+@media(min-width: 576px) and (max-width: 767px){    
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Qs{
+
+    .main__Plantilla-Qs{
+        margin-top: 90px;
+        height: 100%;
+        background-color: rgba(82, 82, 82, 0);
+
+//----------------🟡Mq-Titulo-Qs🟡----------------
+.Mq-Titulo-Qs{
+    height: 55px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs{
+        font-size: 40px;
+    }
+}
+
+.MqTextP{
+    height: 113px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+
+    .MqTextP__TextQs1{
+        font-size: 19px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs🟡----------------
+
+
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+    .Mq-Titulo-Qs2{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs2{
+    font-size: 35px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+
+.MqText1{
+    height: 173px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+    .MqText1__TextQs2{
+        font-size: 19px;
+    }
+}
+
+.MqIMG1{
+    height: 350px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    display: flex;
+    justify-content: center;
+
+    .MqIMG1__IMG1{
+        height: 333px;
+        width: 245px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+    }
+
+    .MqIMG1__IMG1::before{
+        content: "¡Las mejores ofertas!";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 30px;
+        background-color: rgba(170, 3, 204, 0.411);
+        transform: scale(0);
+        transition: transform .6s;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "fuenteCRG";
+        font-size: 25px;
+    }
+    
+    .MqIMG1__IMG1:hover::before{
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs3{
+    font-size: 35px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 350px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    display: flex;
+    justify-content: center;
+
+        .MqIMG2__IMG2{
+        height: 333px;
+        width: 245px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+        }
+
+        .MqIMG2__IMG2::before{
+            content: "¡Los mejores viajes!";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 30px;
+            background-color: rgba(247, 27, 19, 0.411);
+            transform: scale(0);
+            transition: transform .6s;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "fuenteCRG";
+            font-size: 25px;
+        }
+
+        .MqIMG2__IMG2:hover::before{
+            transform: scale(1) rotate(360deg);
+        }
+}
+
+    .MqText2{
+    height: 153px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+        .MqText2__TextQs3{
+        font-size: 19px;
+        }
+}
+
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+
+
+
+@media(min-width: 576px) and (max-width: 643px){    
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Qs{
+
+    .main__Plantilla-Qs{
+        margin-top: 90px;
+        height: 100%;
+        background-color: rgba(172, 255, 47, 0);
+
+
+//----------------🟡Mq-Titulo-Qs🟡----------------
+.Mq-Titulo-Qs{
+    height: 55px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs{
+        font-size: 40px;
+    }
+}
+
+.MqTextP{
+    height: 123px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+
+    .MqTextP__TextQs1{
+        font-size: 19px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs🟡----------------
+
+
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+    .Mq-Titulo-Qs2{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs2{
+        font-size: 35px;
+        }
+}
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+
+.MqText1{
+    height: 190px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+    .MqText1__TextQs2{
+        font-size: 19px;
+    }
+}
+
+.MqIMG1{
+    height: 350px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    display: flex;
+    justify-content: center;
+
+    .MqIMG1__IMG1{
+        height: 333px;
+        width: 245px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+    }
+}
+
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs3{
+        font-size: 35px;
+        }
+}
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 350px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    display: flex;
+    justify-content: center;
+
+        .MqIMG2__IMG2{
+        height: 333px;
+        width: 245px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+        }
+}
+
+    .MqText2{
+    height: 170px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-bottom: 23px;
+
+        .MqText2__TextQs3{
+        font-size: 19px;
+        }
+    }
+}
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📕Media query moviles pequeños📕 -------------
+
+
+// ------------- 📖Media query Tablets📖 -------------
+@media(min-width: 855px) and (max-width: 991px){   
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Qs{
+
+    .main__Plantilla-Qs{
+        margin-top: 90px;
+        height: 100%;
+        background-color: rgba(250, 102, 255, 0);
+
+//----------------🟡Mq-Titulo-Qs🟡----------------
+    .Mq-Titulo-Qs{
+    height: 55px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs{
+        font-size: 35px;
+    }
+}
+
+.MqTextP{
+    height: 113px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+
+    .MqTextP__TextQs1{
+        font-size: 19px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs🟡----------------
+
+
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+    .Mq-Titulo-Qs2{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs2{
+        font-size: 35px;
+        }
+}
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+
+.MqText1{
+    height: 173px;
+    width: 600px;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-top: 10px;
+
+    .MqText1__TextQs2{
+        font-size: 19px;
+    }
+}
+
+.MqIMG1{
+    height: 250px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+
+    .MqIMG1__IMG1{
+        height: 233px;
+        width: 165px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+    }
+
+    .MqIMG1__IMG1::before{
+        content: "¡Las mejores ofertas!";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 30px;
+        background-color: rgba(170, 3, 204, 0.411);
+        transform: scale(0);
+        transition: transform .6s;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "fuenteCRG";
+        font-size: 18px;
+    }
+    
+    .MqIMG1__IMG1:hover::before{
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs3{
+        font-size: 35px;
+        }
+}
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 250px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+
+        .MqIMG2__IMG2{
+        height: 233px;
+        width: 165px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+        }
+
+        .MqIMG2__IMG2::before{
+            content: "¡Los mejores viajes!";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 30px;
+            background-color: rgba(247, 27, 19, 0.411);
+            transform: scale(0);
+            transition: transform .6s;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "fuenteCRG";
+            font-size: 18px;
+        }
+
+        .MqIMG2__IMG2:hover::before{
+            transform: scale(1) rotate(360deg);
+        }
+}
+
+    .MqText2{
+    height: 203px;
+    width: 600px;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-top: 10px;
+
+        .MqText2__TextQs3{
+        font-size: 19px;
+        }
+}
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+
+
+
+@media(min-width: 768px) and (max-width: 855px){    
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Qs{
+
+    .main__Plantilla-Qs{
+        margin-top: 90px;
+        height: 100%;
+        background-color: rgba(186, 46, 241, 0);
+
+//----------------🟡Mq-Titulo-Qs🟡----------------
+    .Mq-Titulo-Qs{
+    height: 55px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+    .Titulo_Qs{
+        font-size: 35px;
+    }
+}
+
+.MqTextP{
+    height: 113px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+
+    .MqTextP__TextQs1{
+        font-size: 19px;
+    }
+}
+//----------------🟡Mq-Titulo-Qs🟡----------------
+
+
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+    .Mq-Titulo-Qs2{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs2{
+        font-size: 35px;
+        }
+}
+//----------------🟡Mq-Titulo-Qs2🟡----------------
+
+.MqText1{
+    height: 173px;
+    width: 560px;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-top: 10px;
+
+    .MqText1__TextQs2{
+        font-size: 19px;
+    }
+}
+
+.MqIMG1{
+    height: 250px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+
+    .MqIMG1__IMG1{
+        height: 233px;
+        width: 165px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+    }
+
+    .MqIMG1__IMG1::before{
+        content: "¡Las mejores ofertas!";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 30px;
+        background-color: rgba(170, 3, 204, 0.411);
+        transform: scale(0);
+        transition: transform .6s;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "fuenteCRG";
+        font-size: 17px;
+    }
+    
+    .MqIMG1__IMG1:hover::before{
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs3{
+        font-size: 35px;
+        }
+}
+//----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 250px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+
+        .MqIMG2__IMG2{
+        height: 233px;
+        width: 165px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 1px;
+        }
+
+        .MqIMG2__IMG2::before{
+            content: "¡Los mejores viajes!";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 30px;
+            background-color: rgba(247, 27, 19, 0.411);
+            transform: scale(0);
+            transition: transform .6s;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "fuenteCRG";
+            font-size: 17px;
+        }
+
+        .MqIMG2__IMG2:hover::before{
+            transform: scale(1) rotate(360deg);
+        }
+}
+
+    .MqText2{
+    height: 203px;
+    width: 560px;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-top: 10px;
+
+        .MqText2__TextQs3{
+        font-size: 19px;
+        }
+}
+}
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📖Media query Tablets📖 -------------
+
+
+
+// ------------- 📘Media query PC📘 -------------
+
+@media(min-width: 1240px) and (max-width: 1337px){  
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+    .Container-index{
+    // ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+    .main-Qs{
+    
+        .main__Plantilla-Qs{
+            margin-top: 90px;
+            height: 100%;
+            background-color: rgba(0, 153, 255, 0);
+    
+    //----------------🟡Mq-Titulo-Qs🟡----------------
+    .Mq-Titulo-Qs{
+        height: 55px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, Titulos);
+    
+        .Titulo_Qs{
+            font-size: 35px;
+        }
+    }
+    
+    .MqTextP{
+        height: 113px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, MqText);
+        border-radius: 20px;
+    
+        .MqTextP__TextQs1{
+            font-size: 20px;
+        }
+    }
+    //----------------🟡Mq-Titulo-Qs🟡----------------
+    
+    
+    //----------------🟡Mq-Titulo-Qs2🟡----------------
+    .Mq-Titulo-Qs2{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+    
+    .Titulo_Qs2{
+    font-size: 35px;
+    }
+    }
+    //----------------🟡Mq-Titulo-Qs2🟡----------------
+    
+    .MqText1{
+        height: 173px;
+        width: 890px;
+        background-color: map-get($Cols-Qs, MqText);
+        border-radius: 20px;
+        margin-top: 10px;
+    
+        .MqText1__TextQs2{
+            font-size: 20px;
+        }
+    }
+    
+    .MqIMG1{
+        height: 250px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, MqIMG);
+    
+        .MqIMG1__IMG1{
+            height: 233px;
+            width: 200px;
+            background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+            @include Bg;
+            background-color: rgb(0, 0, 0);
+            border-radius: 30px;
+            margin-left: 43px;
+        }
+    }
+    
+    //----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+    
+    .Titulo_Qs3{
+    font-size: 35px;
+    }
+    }
+    //----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 250px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    
+        .MqIMG2__IMG2{
+        height: 233px;
+        width: 200px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 43px;
+        }
+    }
+    
+    .MqText2{
+    height: 203px;
+    width: 890px;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-top: 10px;
+    
+        .MqText2__TextQs3{
+        font-size: 20px;
+        }
+    }
+    
+}
+}
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+    
+}
+
+
+
+@media(min-width: 1080px) and (max-width: 1240px){ 
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+    .Container-index{
+    // ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+    .main-Qs{
+    
+        .main__Plantilla-Qs{
+            margin-top: 90px;
+            height: 100%;
+    
+    //----------------🟡Mq-Titulo-Qs🟡----------------
+    .Mq-Titulo-Qs{
+        height: 55px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, Titulos);
+    
+        .Titulo_Qs{
+            font-size: 35px;
+        }
+    }
+    
+    .MqTextP{
+        height: 113px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, MqText);
+        border-radius: 20px;
+    
+        .MqTextP__TextQs1{
+            font-size: 20px;
+        }
+    }
+    //----------------🟡Mq-Titulo-Qs🟡----------------
+    
+    
+    //----------------🟡Mq-Titulo-Qs2🟡----------------
+    .Mq-Titulo-Qs2{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+    
+    .Titulo_Qs2{
+    font-size: 35px;
+    }
+    }
+    //----------------🟡Mq-Titulo-Qs2🟡----------------
+    
+    .MqText1{
+        height: 173px;
+        width: 790px;
+        background-color: map-get($Cols-Qs, MqText);
+        border-radius: 20px;
+        margin-top: 10px;
+    
+        .MqText1__TextQs2{
+            font-size: 20px;
+        }
+    }
+    
+    .MqIMG1{
+        height: 250px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, MqIMG);
+    
+        .MqIMG1__IMG1{
+            height: 233px;
+            width: 180px;
+            background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+            @include Bg;
+            background-color: rgb(0, 0, 0);
+            border-radius: 30px;
+            margin-left: 23px;
+        }
+    }
+    
+    //----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+    
+    .Titulo_Qs3{
+    font-size: 35px;
+    }
+    }
+    //----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 250px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+    
+        .MqIMG2__IMG2{
+        height: 233px;
+        width: 180px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 23px;
+        }
+}
+    
+    .MqText2{
+    height: 203px;
+    width: 790px;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-top: 10px;
+    
+        .MqText2__TextQs3{
+        font-size: 20px;
+        }
+}
+    
+}
+}
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+        
+}
+
+
+
+@media(min-width: 992px) and (max-width: 1080px){ 
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+    .Container-index{
+    // ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+    .main-Qs{
+
+        .main__Plantilla-Qs{
+            margin-top: 90px;
+            height: 100%;
+
+    //----------------🟡Mq-Titulo-Qs🟡----------------
+    .Mq-Titulo-Qs{
+        height: 55px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs{
+            font-size: 35px;
+        }
+    }
+
+    .MqTextP{
+        height: 113px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, MqText);
+        border-radius: 20px;
+
+        .MqTextP__TextQs1{
+            font-size: 20px;
+        }
+    }
+    //----------------🟡Mq-Titulo-Qs🟡----------------
+
+
+    //----------------🟡Mq-Titulo-Qs2🟡----------------
+    .Mq-Titulo-Qs2{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs2{
+        font-size: 35px;
+        }
+}
+    //----------------🟡Mq-Titulo-Qs2🟡----------------
+
+    .MqText1{
+        height: 173px;
+        width: 690px;
+        background-color: map-get($Cols-Qs, MqText);
+        border-radius: 20px;
+        margin-top: 10px;
+
+        .MqText1__TextQs2{
+            font-size: 20px;
+        }
+    }
+
+    .MqIMG1{
+        height: 250px;
+        width: 100%;
+        background-color: map-get($Cols-Qs, MqIMG);
+
+        .MqIMG1__IMG1{
+            height: 233px;
+            width: 180px;
+            background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs1.jpg");
+            @include Bg;
+            background-color: rgb(0, 0, 0);
+            border-radius: 30px;
+            margin-left: 23px;
+        }
+    }
+
+    //----------------🟡Mq-Titulo-Qs3🟡----------------
+    .Mq-Titulo-Qs3{
+    height: 39px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, Titulos);
+
+        .Titulo_Qs3{
+        font-size: 35px;
+        }
+}
+    //----------------🟡Mq-Titulo-Qs3🟡----------------
+    .MqIMG2{
+    height: 250px;
+    width: 100%;
+    background-color: map-get($Cols-Qs, MqIMG);
+
+        .MqIMG2__IMG2{
+        height: 233px;
+        width: 180px;
+        background-image: url("../Imagenes/IMG-QuienesSomos/IMG-Qs2.jpg");
+        @include Bg;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-left: 23px;
+        }
+}
+
+    .MqText2{
+    height: 203px;
+    width: 690px;
+    background-color: map-get($Cols-Qs, MqText);
+    border-radius: 20px;
+    margin-top: 10px;
+
+        .MqText2__TextQs3{
+        font-size: 20px;
+        }
+}
+
+}
+}
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+} 
+// ------------- 📘Media query PC📘 -------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

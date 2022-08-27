@@ -1,0 +1,354 @@
+//-------------MixinBg------------
+@mixin Bg {                           
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+//-------------MixinBg------------
+
+
+//-------------MixinLink------------
+@mixin Link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "fuenteC";
+}
+//-------------MiuxLink------------
+
+
+$ColoresLink:(
+	TextLink: rgb(255, 255, 255),
+);
+
+$MqInicio:(
+    MqText: rgba(253, 120, 120, 0), 
+    MqIMG1: rgba(46, 236, 8, 0), 
+    MqIMG2: rgba(241, 182, 134, 0) 
+);
+
+$CuadrosInicio:(
+    Cuadros: rgba(161, 161, 161, 0) 
+);
+
+
+//-------------CuadrosInicio------------
+@mixin CuadrosInicio {    
+    background-color: map-get($CuadrosInicio, Cuadros);
+    border: solid rgba(0, 0, 0, 0) 4px;
+}
+//-------------CuadrosInicio------------
+
+
+//---------main__Plantila---------
+$main__Plantilla:(
+    Plantilla: rgba(86, 192, 241, 0)  
+);
+//---------main__Plantila---------
+
+
+//---------De QuienesSomos---------
+$Cols-Qs:(
+    Titulos: rgba(119, 119, 119, 0),  
+    MqText: rgba(172, 172, 172, 0.575),    
+    MqIMG: rgba(255, 157, 10, 0)    
+);
+//---------De QuienesSomos---------
+
+
+@mixin RadiusTop {                   
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+@mixin RadiusBottom {                   
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+@mixin RadiusLeft {                     
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+@mixin RadiusRight {                     
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+
+//---------De Alojamiento---------
+$DeCuadroForm:(
+    Mq-Titulo-Alj: rgba(155, 155, 155, 0), 
+    FilaForm: rgba(249, 82, 255, 0),  
+    CuadroForm: rgba(141, 129, 129, 0.473),  
+    Fila1: rgba(0, 247, 255, 0),    
+    Fila2: rgba(255, 10, 10, 0),     
+    Subcuadros: rgb(128, 128, 128),  
+    SubMitad-top: rgba(192, 192, 192, 0),       
+    SubMitad-bottom: rgba(107, 107, 107, 0),     
+    Bars: rgb(238, 237, 237)        
+);
+
+
+
+$DeCuadroFormMob:(
+    Fila1: rgba(253, 42, 42, 0),    
+    Fila2: rgba(66, 246, 252, 0),     
+    Fila3: rgba(253, 42, 42, 0),   
+    Fila4: rgba(66, 246, 252, 0),     
+    SubCuadroMob: rgb(128, 128, 128),         
+    SubMitad-top: rgba(192, 192, 192, 0),       
+    SubMitad-bottom: rgba(107, 107, 107, 0)    
+);
+
+
+$Filashoteles:(
+    FilaHoteles: rgba(150, 196, 248, 0), 
+    CardHoteles: rgba(92, 92, 92, 0) 
+);
+
+
+
+
+
+$DeFilaButton:(
+    FilaButton: rgba(129, 129, 129, 0), 
+    Button: rgb(172, 255, 47)             
+);
+
+$DeFilaPublicidad:(
+    FilaPublicidad: rgba(87, 88, 88, 0) 
+);
+
+
+@mixin BarsALJ {  
+    width: 220px;
+    height: 35px;
+    border-radius: 50px;
+    border: solid black 3px;
+    background-color: map-get($DeCuadroForm, Bars);
+}
+
+@mixin SubBarsALJPrincipal {  
+    width: 190px;
+    height: 35px;
+    border-radius: 50px;
+    border: solid black 3px;
+    background-color: map-get($DeCuadroForm, Bars);
+}
+
+@mixin SubBarsALJ { 
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    border: solid black 3px;
+    background-color: map-get($DeCuadroForm, Bars);
+}
+
+
+@mixin MitadHotelTop {     
+    height: 165px;
+    width: 230px;
+    background-color: rgb(47, 160, 253);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+@mixin FilaStar {       
+    height: 50px;
+    width: 230px;
+    background-image: url("../Imagenes/FilaStar.png");
+    background-color: rgba(219, 108, 108, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+@mixin MitadHotelBottom {       
+    height: 105px;
+    width: 230px;
+    background-image: linear-gradient(to bottom, rgb(209, 209, 209) 45%, rgba(90, 90, 90, 0.384));
+    background-color: rgb(219, 255, 253);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@mixin MitadHotelTabletTop {      
+    height: 165px;
+    width: 200px;
+    background-color: rgb(47, 160, 253);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+@mixin FilaStarTablet {      
+    height: 50px;
+    width: 200px;
+    background-image: url("../Imagenes/FilaStarMobile.png");
+    background-color: rgba(219, 108, 108, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+@mixin MitadHotelTabletBottom {       
+    height: 105px;
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgb(209, 209, 209) 45%, rgba(90, 90, 90, 0.384));
+    background-color: rgb(219, 255, 253);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@mixin MitadHotelMDTop {      
+    height: 160px;
+    width: 200px;
+    background-color: rgb(47, 160, 253);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+@mixin FilaStarMD {       
+    height: 50px;
+    width: 200px;
+    background-image: url("../Imagenes/FilaStarMobile.png");
+    background-color: rgba(219, 108, 108, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+@mixin MitadHotelMDBottom {      
+    height: 90px;
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgb(209, 209, 209) 45%, rgba(90, 90, 90, 0.384));
+    background-color: rgb(219, 255, 253);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+//---------De Alojamiento---------
+
+
+
+
+
+//---------De Contacto---------
+$DeFormulario:(
+    Titulo: rgba(155, 155, 155, 0),      
+    Plantilla: rgba(126, 126, 126, 0.603), 
+    Filaform1: rgba(20, 157, 220, 0),   
+    Filaform2: rgba(11, 91, 211, 0)    
+);
+
+@mixin BarsCont {   
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    width: 400px;
+    height: 37px;
+    border: solid black 3px;
+    position: relative;
+    top: 19px;
+    left: 20px;
+}
+
+$DeFilaRedes:(
+    FilaRedes: rgba(170, 241, 99, 0),      
+    ColRedes1: rgba(10, 155, 10, 0),       
+    ColRedes2: rgba(20, 247, 20, 0),      
+    IMG-Redes: rgba(0, 0, 0, 0)       
+);
+
+@mixin RedesText{  
+    position: relative;
+    bottom: 30px;
+    margin-left: 90px;
+}
+
+
+@mixin BarsContMD{   
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    width: 320px;
+    height: 37px;
+    border: solid black 3px;
+    position: relative;
+    top: 19px;
+    left: 20px;
+}
+
+
+@mixin BarsContSM{   
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    width: 300px;
+    height: 44px;
+    border: solid black 3px;
+    position: relative;
+    top: 19px;
+    left: 20px;
+}
+//---------De Contacto---------
+
+
+
+
+
+//------------Submitades-------------
+@mixin SubMitadHotel1{  
+    height: 50px;
+    width: 230px;
+    background-color: rgba(15, 132, 241, 0);
+}
+
+@mixin SubMitadHotel2{   
+    height: 55px;
+    width: 230px;
+    background-color: rgba(0, 225, 255, 0);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@mixin TituloHotel{  
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    font-weight: 800;
+    font-family: "fuenteCRG";
+}
+
+@mixin PrecioHotel{   
+    font-size: 30px;
+    text-align: center;
+    font-family: "fuenteH";
+    font-weight: 800;
+    color: rgb(15, 223, 77);
+    -webkit-text-stroke: 1px rgb(8, 153, 51);
+}
+
+@mixin SubMitadHotelTablet1{  
+    height: 50px;
+    width: 200px;
+    background-color: rgba(15, 132, 241, 0);
+}
+
+@mixin SubMitadHotelTablet2{  
+    height: 55px;
+    width: 200px;
+    background-color: rgba(0, 225, 255, 0);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@mixin SubMitadHotelMD1{  
+    height: 45px;
+    width: 200px;
+    background-color: rgba(15, 132, 241, 0);
+}
+
+@mixin SubMitadHotelMD2{   
+    height: 45px;
+    width: 200px;
+    background-color: rgba(0, 225, 255, 0);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+//------------Submitades-------------

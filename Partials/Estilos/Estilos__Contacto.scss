@@ -1,0 +1,2162 @@
+/* Inicio del reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Final del reset */
+
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Reg{
+
+    .main__Plantilla-Reg{
+        margin-top: 90px;
+        height: 100%;
+        overflow-x: hidden;
+
+//----------------🟡Mq-Titulo-Reg🟡----------------
+        .Mq-Titulo-Reg{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Titulo);
+
+            .Titulo_Reg{
+                font-size: 45px;
+            }
+        }
+//----------------🟡Mq-Titulo-Reg🟡----------------
+
+
+
+//----------------🛑FilaForm-Cont🛑----------------
+        .FilaForm-Cont{
+            height: 790px; 
+            width: 100%;
+            background-color: rgba(250, 171, 74, 0);
+            display: flex;
+            justify-content: center;
+
+            .FilaForm-Cont__Plantilla{  
+                height: 760px;  
+                width: 600px;
+                background-color: map-get($DeFormulario, Plantilla);
+                border-radius: 50px;
+                position: relative;
+                top: 27px;
+
+        //----------------⚪Plantilla__Filaform1⚪----------------
+                .Plantilla__Filaform1{
+                    height: 117px;   
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+                    @include RadiusTop;
+
+                    .Filaform1__Titulo1{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont{
+                        @include BarsCont;
+                    }
+            
+                }
+        //----------------⚪Plantilla__Filaform1⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform2⚪----------------
+                .Plantilla__Filaform2{
+                    height: 117px;   
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform2__Titulo2{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont2{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform2⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform3⚪----------------
+                .Plantilla__Filaform3{
+                    height: 117px;   
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform3__Titulo3{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont3{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform3⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform4⚪----------------
+                .Plantilla__Filaform4{
+                    height: 117px;   
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform4__Titulo4{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont4{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform4⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform5⚪----------------
+                .Plantilla__Filaform5{
+                    height: 117px;   
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform5__Titulo5{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont5{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform5⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform6⚪----------------
+                .Plantilla__Filaform6{
+                    height: 175px;  
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+                    @include RadiusBottom;
+
+                    .Filaform6__Titulo6{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont6{
+                        @include BarsCont;
+                    }
+
+                    .BtEnviar{ 
+                        background-color: rgb(155, 233, 252);
+                        border-radius: 50px;
+                        width: 130px;
+                        height: 40px;
+                        border: solid black 3px;
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform6⚪----------------
+            }
+        }
+//----------------🛑FilaForm-Cont🛑----------------
+
+
+
+//----------------🟢FilaRedes🟢----------------
+
+        .FilaRedes{
+            height: 400px;
+            width: 100%;
+            background-color: map-get($DeFilaRedes, FilaRedes);
+
+            .ColRedes{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG1-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Correo.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                    animation: latido 1.2s linear infinite;
+                } 
+
+
+                .IMG1-Redes:before {
+                    content: ""; 
+                    position: absolute; 
+                    transform: translateY(-50%);
+                }
+                
+                .IMG1-Redes:after{
+                    content: "";
+                    position: absolute; 
+                    transform: translateX(-50%); 
+                }
+
+
+                @keyframes latido{
+                    0% {
+                        transform: scale(1);
+                    }
+                    25% {
+                        transform: scale(1);
+                    }
+                    30% {
+                        transform: scale(1.2);
+                    }
+                    50% {
+                        transform: scale(1.1);
+                    }
+                    70% {
+                        transform: scale(1.2);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+
+        
+
+                .RedesText{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes2{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG2-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Instagram.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                    animation: latido 1.2s linear infinite;
+                }
+
+                .IMG2-Redes:before {
+                    content: ""; 
+                    position: absolute; 
+                    transform: translateY(-50%);
+                }
+                
+                .IMG2-Redes:after{
+                    content: "";
+                    position: absolute; 
+                    transform: translateX(-50%); 
+                }
+
+
+                @keyframes latido{
+                    0% {
+                        transform: scale(1);
+                    }
+                    25% {
+                        transform: scale(1);
+                    }
+                    30% {
+                        transform: scale(1.2);
+                    }
+                    50% {
+                        transform: scale(1.1);
+                    }
+                    70% {
+                        transform: scale(1.2);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+
+                .RedesText2{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes3{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG3-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Whatsapp.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                    animation: latido 1.2s linear infinite;
+                }
+
+                .IMG3-Redes:before {
+                    content: ""; 
+                    position: absolute; 
+                    transform: translateY(-50%);
+                }
+                
+                .IMG3-Redes:after{
+                    content: "";
+                    position: absolute; 
+                    transform: translateX(-50%); 
+                }
+
+
+                @keyframes latido{
+                    0% {
+                        transform: scale(1);
+                    }
+                    25% {
+                        transform: scale(1);
+                    }
+                    30% {
+                        transform: scale(1.2);
+                    }
+                    50% {
+                        transform: scale(1.1);
+                    }
+                    70% {
+                        transform: scale(1.2);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+
+                .RedesText3{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes4{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG4-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Facebook.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                    animation: latido 1.2s linear infinite;
+                }
+
+                .IMG2-Redes:before {
+                    content: ""; 
+                    position: absolute; 
+                    transform: translateY(-50%);
+                }
+                
+                .IMG4-Redes:after{
+                    content: "";
+                    position: absolute; 
+                    transform: translateX(-50%); 
+                }
+
+
+                @keyframes latido{
+                    0% {
+                        transform: scale(1);
+                    }
+                    25% {
+                        transform: scale(1);
+                    }
+                    30% {
+                        transform: scale(1.2);
+                    }
+                    50% {
+                        transform: scale(1.1);
+                    }
+                    70% {
+                        transform: scale(1.2);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+
+                .RedesText4{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+        }
+//----------------🟢FilaRedes🟢----------------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+
+
+// ------------- 📕Media query moviles muy pequeños📕 -------------
+@media(max-width: 576px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Reg{
+
+    .main__Plantilla-Reg{
+        margin-top: 90px;
+        height: 100%;
+
+//----------------🟡Mq-Titulo-Reg🟡----------------
+        .Mq-Titulo-Reg{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Titulo);
+
+            .Titulo_Reg{
+                font-size: 45px;
+            }
+        }
+//----------------🟡Mq-Titulo-Reg🟡----------------
+
+
+
+//----------------🛑FilaForm-Cont🛑----------------
+.FilaForm-Cont{
+    height: 790px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+
+    .FilaForm-Cont__Plantilla{
+        height: 725px;
+        width: 380px;
+        background-color: map-get($DeFormulario, Plantilla);
+        border-radius: 50px;
+        position: relative;
+        top: 27px;
+
+//----------------⚪Plantilla__Filaform1⚪----------------
+        .Plantilla__Filaform1{
+            height: 110px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Filaform1);
+            @include RadiusTop;
+
+            .Filaform1__Titulo1{
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+    
+            .BarCont{
+                @include BarsContMD;
+            }
+    
+        }
+//----------------⚪Plantilla__Filaform1⚪----------------
+
+
+//----------------⚪Plantilla__Filaform2⚪----------------
+        .Plantilla__Filaform2{
+            height: 110px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Filaform2);
+
+            .Filaform2__Titulo2{
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+    
+            .BarCont2{
+                @include BarsContMD;
+            }
+        }
+//----------------⚪Plantilla__Filaform2⚪----------------
+
+
+//----------------⚪Plantilla__Filaform3⚪----------------
+        .Plantilla__Filaform3{
+            height: 110px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Filaform1);
+
+            .Filaform3__Titulo3{
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+    
+            .BarCont3{
+                @include BarsContMD;
+            }
+        }
+//----------------⚪Plantilla__Filaform3⚪----------------
+
+
+//----------------⚪Plantilla__Filaform4⚪----------------
+        .Plantilla__Filaform4{
+            height: 110px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Filaform2);
+
+            .Filaform4__Titulo4{
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+    
+            .BarCont4{
+                @include BarsContMD;
+            }
+        }
+//----------------⚪Plantilla__Filaform4⚪----------------
+
+
+//----------------⚪Plantilla__Filaform5⚪----------------
+        .Plantilla__Filaform5{
+            height: 110px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Filaform1);
+
+            .Filaform5__Titulo5{
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+    
+            .BarCont5{
+                @include BarsContMD;
+            }
+        }
+//----------------⚪Plantilla__Filaform5⚪----------------
+
+
+//----------------⚪Plantilla__Filaform6⚪----------------
+        .Plantilla__Filaform6{
+            height: 175px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Filaform2);
+            @include RadiusBottom;
+
+            .Filaform6__Titulo6{
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+    
+            .BarCont6{
+                @include BarsContMD;
+            }
+
+            .BtEnviar{  
+                background-color: rgb(155, 233, 252);
+                border-radius: 50px;
+                width: 130px;
+                height: 40px;
+                border: solid black 3px;
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+        }
+//----------------⚪Plantilla__Filaform6⚪----------------
+    }
+}
+//----------------🛑FilaForm-Cont🛑----------------
+
+
+
+//----------------🟢FilaRedes🟢----------------
+
+        .FilaRedes{
+            height: 400px;
+            width: 100%;
+            background-color: map-get($DeFilaRedes, FilaRedes);
+
+            .ColRedes{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG1-Redes{
+                    height: 53px;
+                    width: 53px;
+                    background-image: url("../Imagenes/IMG-Contacto/CorreoSM.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 25px;
+                    left: 5px;
+                } 
+
+                .RedesText{
+                    font-size: 16px;
+                    margin-left: 68px;
+                    position: relative;
+                    bottom: 10px;
+                    right: 6px;
+                }
+            } 
+
+
+
+            .ColRedes2{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG2-Redes{
+                    height: 53px;
+                    width: 53px;
+                    background-image: url("../Imagenes/IMG-Contacto/InstagramSM.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 25px;
+                    left: 5px;
+                }
+
+                .RedesText2{
+                    font-size: 16px;
+                    margin-left: 68px;
+                    position: relative;
+                    bottom: 10px;
+                    right: 6px;
+                }
+            } 
+
+
+
+            .ColRedes3{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG3-Redes{
+                    height: 53px;
+                    width: 53px;
+                    background-image: url("../Imagenes/IMG-Contacto/WhatsappSM.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 25px;
+                    left: 5px;
+                }
+
+                .RedesText3{
+                    font-size: 16px;
+                    margin-left: 68px;
+                    position: relative;
+                    bottom: 10px;
+                    right: 6px;
+                }
+            } 
+
+
+
+            .ColRedes4{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG4-Redes{
+                    height: 53px;
+                    width: 53px;
+                    background-image: url("../Imagenes/IMG-Contacto/FacebookSM.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 25px;
+                    left: 5px;
+                }
+
+                .RedesText4{
+                    font-size: 16px;
+                    margin-left: 68px;
+                    position: relative;
+                    bottom: 10px;
+                    right: 6px;
+                }
+            } 
+        }
+//----------------🟢FilaRedes🟢----------------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+
+
+@media(min-width: 417px) and (max-width: 577px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Reg{
+
+    .main__Plantilla-Reg{
+        margin-top: 90px;
+        height: 100%;
+
+//----------------🟡Mq-Titulo-Reg🟡----------------
+        .Mq-Titulo-Reg{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Titulo);
+
+            .Titulo_Reg{
+                font-size: 45px;
+            }
+        }
+//----------------🟡Mq-Titulo-Reg🟡----------------
+
+
+
+//----------------🛑FilaForm-Cont🛑----------------
+        .FilaForm-Cont{
+            height: 790px;
+            width: 100%;
+            background-color: rgba(241, 255, 51, 0);
+            display: flex;
+            justify-content: center;
+
+            .FilaForm-Cont__Plantilla{
+                height: 725px;
+                width: 380px;
+                background-color: map-get($DeFormulario, Plantilla);
+                border-radius: 50px;
+                position: relative;
+                top: 27px;
+
+        //----------------⚪Plantilla__Filaform1⚪----------------
+                .Plantilla__Filaform1{
+                    height: 110px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+                    @include RadiusTop;
+
+                    .Filaform1__Titulo1{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont{
+                        @include BarsContMD;
+                    }
+            
+                }
+        //----------------⚪Plantilla__Filaform1⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform2⚪----------------
+                .Plantilla__Filaform2{
+                    height: 110px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform2__Titulo2{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont2{
+                        @include BarsContMD;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform2⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform3⚪----------------
+                .Plantilla__Filaform3{
+                    height: 110px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform3__Titulo3{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont3{
+                        @include BarsContMD;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform3⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform4⚪----------------
+                .Plantilla__Filaform4{
+                    height: 110px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform4__Titulo4{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont4{
+                        @include BarsContMD;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform4⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform5⚪----------------
+                .Plantilla__Filaform5{
+                    height: 110px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform5__Titulo5{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont5{
+                        @include BarsContMD;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform5⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform6⚪----------------
+                .Plantilla__Filaform6{
+                    height: 175px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+                    @include RadiusBottom;
+
+                    .Filaform6__Titulo6{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont6{
+                        @include BarsContMD;
+                    }
+
+                    .BtEnviar{  
+                        background-color: rgb(155, 233, 252);
+                        border-radius: 50px;
+                        width: 130px;
+                        height: 40px;
+                        border: solid black 3px;
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform6⚪----------------
+            }
+        }
+//----------------🛑FilaForm-Cont🛑----------------
+
+
+
+//----------------🟢FilaRedes🟢----------------
+
+        .FilaRedes{
+            height: 400px;
+            width: 100%;
+            background-color: map-get($DeFilaRedes, FilaRedes);
+
+            .ColRedes{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG1-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Correo.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 5px;
+                } 
+
+                .RedesText{
+                    font-size: 18px;
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 25px;
+                }
+            } 
+
+
+
+            .ColRedes2{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG2-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Instagram.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 5px;
+                }
+
+                .RedesText2{
+                    font-size: 18px;
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 25px;
+                }
+            } 
+
+
+
+            .ColRedes3{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG3-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Whatsapp.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 5px;
+                }
+
+                .RedesText3{
+                    font-size: 18px;
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 25px;
+                }
+            } 
+
+
+
+            .ColRedes4{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG4-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Facebook.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 5px;
+                }
+
+                .RedesText4{
+                    font-size: 18px;
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 25px;
+                }
+            } 
+        }
+//----------------🟢FilaRedes🟢----------------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📕Media query moviles muy pequeños📕 -------------
+
+
+// ------------- 📕Media query moviles pequeños📕 -------------
+@media(min-width: 576px) and (max-width: 767px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Reg{
+
+    .main__Plantilla-Reg{
+        margin-top: 90px;
+        height: 100%;
+
+//----------------🟡Mq-Titulo-Reg🟡----------------
+        .Mq-Titulo-Reg{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Titulo);
+
+            .Titulo_Reg{
+                font-size: 45px;
+            }
+        }
+//----------------🟡Mq-Titulo-Reg🟡----------------
+
+
+
+//----------------🛑FilaForm-Cont🛑----------------
+        .FilaForm-Cont{
+            height: 790px;
+            width: 100%;
+            background-color: rgba(255, 123, 123, 0);
+            display: flex;
+            justify-content: center;
+
+            .FilaForm-Cont__Plantilla{
+                height: 760px; 
+                width: 600px;
+                background-color: map-get($DeFormulario, Plantilla);
+                border-radius: 50px;
+                position: relative;
+                top: 27px;
+
+        //----------------⚪Plantilla__Filaform1⚪----------------
+                .Plantilla__Filaform1{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+                    @include RadiusTop;
+
+                    .Filaform1__Titulo1{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont{
+                        @include BarsCont;
+                    }
+            
+                }
+        //----------------⚪Plantilla__Filaform1⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform2⚪----------------
+                .Plantilla__Filaform2{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform2__Titulo2{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont2{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform2⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform3⚪----------------
+                .Plantilla__Filaform3{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform3__Titulo3{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont3{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform3⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform4⚪----------------
+                .Plantilla__Filaform4{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform4__Titulo4{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont4{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform4⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform5⚪----------------
+                .Plantilla__Filaform5{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform5__Titulo5{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont5{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform5⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform6⚪----------------
+                .Plantilla__Filaform6{
+                    height: 175px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+                    @include RadiusBottom;
+
+                    .Filaform6__Titulo6{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont6{
+                        @include BarsCont;
+                    }
+
+                    .BtEnviar{  
+                        background-color: rgb(155, 233, 252);
+                        border-radius: 50px;
+                        width: 130px;
+                        height: 40px;
+                        border: solid black 3px;
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform6⚪----------------
+            }
+        }
+//----------------🛑FilaForm-Cont🛑----------------
+
+
+
+//----------------🟢FilaRedes🟢----------------
+
+        .FilaRedes{
+            height: 400px;
+            width: 100%;
+            background-color: map-get($DeFilaRedes, FilaRedes);
+
+            .ColRedes{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG1-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Correo.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                } 
+
+                .RedesText{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes2{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG2-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Instagram.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText2{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes3{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG3-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Whatsapp.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText3{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes4{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG4-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Facebook.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText4{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+        }
+//----------------🟢FilaRedes🟢----------------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+
+
+@media(min-width: 576px) and (max-width: 643px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Reg{
+
+    .main__Plantilla-Reg{
+        margin-top: 90px;
+        height: 100%;
+
+//----------------🟡Mq-Titulo-Reg🟡----------------
+        .Mq-Titulo-Reg{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Titulo);
+
+            .Titulo_Reg{
+                font-size: 45px;
+            }
+        }
+//----------------🟡Mq-Titulo-Reg🟡----------------
+
+
+
+//----------------🛑FilaForm-Cont🛑----------------
+        .FilaForm-Cont{
+            height: 790px;
+            width: 100%;
+            background-color: rgba(77, 250, 120, 0);
+            display: flex;
+            justify-content: center;
+
+            .FilaForm-Cont__Plantilla{
+                height: 760px; 
+                width: 600px;
+                background-color: map-get($DeFormulario, Plantilla);
+                border-radius: 50px;
+                position: relative;
+                top: 27px;
+
+        //----------------⚪Plantilla__Filaform1⚪----------------
+                .Plantilla__Filaform1{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+                    @include RadiusTop;
+
+                    .Filaform1__Titulo1{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont{
+                        @include BarsCont;
+                    }
+            
+                }
+        //----------------⚪Plantilla__Filaform1⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform2⚪----------------
+                .Plantilla__Filaform2{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform2__Titulo2{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont2{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform2⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform3⚪----------------
+                .Plantilla__Filaform3{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform3__Titulo3{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont3{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform3⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform4⚪----------------
+                .Plantilla__Filaform4{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform4__Titulo4{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont4{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform4⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform5⚪----------------
+                .Plantilla__Filaform5{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform5__Titulo5{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont5{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform5⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform6⚪----------------
+                .Plantilla__Filaform6{
+                    height: 175px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+                    @include RadiusBottom;
+
+                    .Filaform6__Titulo6{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont6{
+                        @include BarsCont;
+                    }
+
+                    .BtEnviar{  
+                        background-color: rgb(155, 233, 252);
+                        border-radius: 50px;
+                        width: 130px;
+                        height: 40px;
+                        border: solid black 3px;
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform6⚪----------------
+            }
+        }
+//----------------🛑FilaForm-Cont🛑----------------
+
+
+
+//----------------🟢FilaRedes🟢----------------
+
+        .FilaRedes{
+            height: 400px;
+            width: 100%;
+            background-color: map-get($DeFilaRedes, FilaRedes);
+
+            .ColRedes{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG1-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Correo.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                } 
+
+                .RedesText{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes2{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG2-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Instagram.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText2{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes3{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG3-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Whatsapp.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText3{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes4{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG4-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Facebook.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText4{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+        }
+//----------------🟢FilaRedes🟢----------------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📕Media query moviles pequeños📕 -------------
+
+
+// ------------- 📖Media query Tablets📖 -------------
+@media(min-width: 768px) and (max-width: 991px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Reg{
+
+    .main__Plantilla-Reg{
+        margin-top: 90px;
+        height: 100%;
+
+//----------------🟡Mq-Titulo-Reg🟡----------------
+        .Mq-Titulo-Reg{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Titulo);
+
+            .Titulo_Reg{
+                font-size: 45px;
+            }
+        }
+//----------------🟡Mq-Titulo-Reg🟡----------------
+
+
+
+//----------------🛑FilaForm-Cont🛑----------------
+        .FilaForm-Cont{
+            height: 790px;
+            width: 100%;
+            background-color: rgba(252, 0, 231, 0);
+            display: flex;
+            justify-content: center;
+
+            .FilaForm-Cont__Plantilla{
+                height: 760px; 
+                width: 600px;
+                background-color: map-get($DeFormulario, Plantilla);;
+                border-radius: 50px;
+                position: relative;
+                top: 27px;
+
+        //----------------⚪Plantilla__Filaform1⚪----------------
+                .Plantilla__Filaform1{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+                    @include RadiusTop;
+
+                    .Filaform1__Titulo1{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont{
+                        @include BarsCont;
+                    }
+            
+                }
+        //----------------⚪Plantilla__Filaform1⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform2⚪----------------
+                .Plantilla__Filaform2{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform2__Titulo2{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont2{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform2⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform3⚪----------------
+                .Plantilla__Filaform3{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform3__Titulo3{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont3{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform3⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform4⚪----------------
+                .Plantilla__Filaform4{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform4__Titulo4{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont4{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform4⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform5⚪----------------
+                .Plantilla__Filaform5{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform5__Titulo5{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont5{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform5⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform6⚪----------------
+                .Plantilla__Filaform6{
+                    height: 175px; 
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+                    @include RadiusBottom;
+
+                    .Filaform6__Titulo6{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont6{
+                        @include BarsCont;
+                    }
+
+                    .BtEnviar{  //Agregado
+                        background-color: rgb(155, 233, 252);
+                        border-radius: 50px;
+                        width: 130px;
+                        height: 40px;
+                        border: solid black 3px;
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform6⚪----------------
+            }
+        }
+//----------------🛑FilaForm-Cont🛑----------------
+
+
+
+//----------------🟢FilaRedes🟢----------------
+
+        .FilaRedes{
+            height: 400px;
+            width: 100%;
+            background-color: map-get($DeFilaRedes, FilaRedes);
+
+            .ColRedes{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG1-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Correo.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                } 
+
+                .RedesText{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes2{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG2-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Instagram.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText2{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes3{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG3-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Whatsapp.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText3{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes4{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG4-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Facebook.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText4{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+        }
+//----------------🟢FilaRedes🟢----------------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📖Media query Tablets📖 -------------
+
+
+// ------------- 📘Media query PC📘 -------------
+@media(min-width: 992px) and (max-width: 1337px){ 
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Reg{
+
+    .main__Plantilla-Reg{
+        margin-top: 90px;
+        height: 100%;
+
+//----------------🟡Mq-Titulo-Reg🟡----------------
+        .Mq-Titulo-Reg{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($DeFormulario, Titulo);
+
+            .Titulo_Reg{
+                font-size: 45px;
+            }
+        }
+//----------------🟡Mq-Titulo-Reg🟡----------------
+
+
+
+//----------------🛑FilaForm-Cont🛑----------------
+        .FilaForm-Cont{
+            height: 790px;
+            width: 100%;
+            background-color: rgba(66, 211, 255, 0);
+            display: flex;
+            justify-content: center;
+
+            .FilaForm-Cont__Plantilla{
+                height: 760px; 
+                width: 600px;
+                background-color: map-get($DeFormulario, Plantilla);
+                border-radius: 50px;
+                position: relative;
+                top: 27px;
+
+        //----------------⚪Plantilla__Filaform1⚪----------------
+                .Plantilla__Filaform1{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+                    @include RadiusTop;
+
+                    .Filaform1__Titulo1{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont{
+                        @include BarsCont;
+                    }
+            
+                }
+        //----------------⚪Plantilla__Filaform1⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform2⚪----------------
+                .Plantilla__Filaform2{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform2__Titulo2{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont2{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform2⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform3⚪----------------
+                .Plantilla__Filaform3{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform3__Titulo3{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont3{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform3⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform4⚪----------------
+                .Plantilla__Filaform4{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+
+                    .Filaform4__Titulo4{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont4{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform4⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform5⚪----------------
+                .Plantilla__Filaform5{
+                    height: 117px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform1);
+
+                    .Filaform5__Titulo5{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont5{
+                        @include BarsCont;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform5⚪----------------
+
+
+        //----------------⚪Plantilla__Filaform6⚪----------------
+                .Plantilla__Filaform6{
+                    height: 175px;
+                    width: 100%;
+                    background-color: map-get($DeFormulario, Filaform2);
+                    @include RadiusBottom;
+
+                    .Filaform6__Titulo6{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+            
+                    .BarCont6{
+                        @include BarsCont;
+                    }
+
+                    .BtEnviar{  
+                        background-color: rgb(155, 233, 252);
+                        border-radius: 50px;
+                        width: 130px;
+                        height: 40px;
+                        border: solid black 3px;
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                    }
+                }
+        //----------------⚪Plantilla__Filaform6⚪----------------
+            }
+        }
+//----------------🛑FilaForm-Cont🛑----------------
+
+
+
+//----------------🟢FilaRedes🟢----------------
+
+        .FilaRedes{
+            height: 400px;
+            width: 100%;
+            background-color: map-get($DeFilaRedes, FilaRedes);
+
+            .ColRedes{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG1-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Correo.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                } 
+
+                .RedesText{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes2{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG2-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Instagram.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText2{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes3{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes1);
+
+                .IMG3-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Whatsapp.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText3{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+
+
+
+            .ColRedes4{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaRedes, ColRedes2);
+
+                .IMG4-Redes{
+                    height: 65px;
+                    width: 65px;
+                    background-image: url("../Imagenes/IMG-Contacto/Facebook.png");
+                    background-color: map-get($DeFilaRedes, IMG-Redes);
+                    position: relative;
+                    top: 18px;
+                    left: 10px;
+                }
+
+                .RedesText4{
+                    margin-left: 85px;
+                    position: relative;
+                    bottom: 29px;
+                }
+            } 
+        }
+//----------------🟢FilaRedes🟢----------------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📘Media query PC📘 -------------

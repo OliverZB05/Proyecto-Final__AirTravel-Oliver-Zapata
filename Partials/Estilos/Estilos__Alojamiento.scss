@@ -1,0 +1,5732 @@
+/* Inicio del reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Final del reset */
+
+
+@media(min-width: 993px){  
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{  
+
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Alj{
+
+    .main__Plantilla-Alj{
+        margin-top: 90px;
+        height: 100%;
+
+        .Mq-Titulo-Alj{
+            height: 65px;
+            width: 100%;
+            background-color: map-get($DeCuadroForm, Mq-Titulo-Alj);
+
+            .Titulo_Alj{
+                font-size: 45px;
+            }
+        }
+
+.FondoCuadro{
+    background-image: url("../Imagenes/IMG-Alojamiento/CuadroFondo_ALJ.png");
+    @include Bg;
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.315);  
+
+        .FilaForm{
+            height: 405px;
+            width: 100%; 
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+
+            .CuadroForm{
+                height: 358px;
+                width: 800px;
+                background-color: map-get($DeCuadroForm, CuadroForm);
+                position: relative;
+                top: 24px;
+                border-radius: 50px;
+
+
+//-----------------🟠Fila1🟠-----------------
+                .CuadroForm__Fila1{
+                    height: 179px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroForm, Fila1);
+                    @include RadiusTop;
+                    display: flex;
+                    justify-content: center;
+
+            //-----------------⬜Fila1__SubCuadro1⬜-----------------
+                    .Fila1__SubCuadro1{
+                        height: 140px;   
+                        width: 380px;
+                        background-color: map-get($DeCuadroForm, Subcuadros);
+                        border-radius: 50px;
+                        position: relative;
+                        top: 20px;
+
+                        .SubCuadro1__SubMitad1-1{
+                            height: 80px; 
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1-1__Titulo1{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadro1__SubMitad1-2{
+                            height: 80px;   
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .Bar1{
+                                @include BarsALJ;
+                            }
+                        }
+                    }
+                //-----------------⬜Fila1__SubCuadro1⬜-----------------
+                }
+//-----------------🟠Fila1🟠-----------------
+
+
+//-----------------🟠Fila2🟠-----------------
+                .CuadroForm__Fila2{
+                    height: 179px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroForm, Fila2);
+                    @include RadiusBottom;
+                    position: relative;
+                    display: flex;
+                    justify-content: space-evenly;
+
+                //-----------------⬜Fila2__SubCuadro1⬜-----------------
+                    .Fila2__SubCuadro1{
+                        height: 140px;
+                        width: 200px;
+                        background-color: map-get($DeCuadroForm, Subcuadros);
+                        border-radius: 50px;
+                        position: absolute;
+                        top: 18px;
+
+                        .SubCuadro1__SubMitad2-1{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad2-1__Titulo2{
+                                text-align: center;
+                                position: relative;
+                                top: 20px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadro1__SubMitad2-2{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .Bar2{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+                //-----------------⬜Fila2__SubCuadro1⬜-----------------
+
+
+                //-----------------⬜Fila2__SubCuadro2⬜-----------------
+                    .Fila2__SubCuadro2{
+                        height: 140px;
+                        width: 200px;
+                        background-color: map-get($DeCuadroForm, Subcuadros);
+                        border-radius: 50px;
+                        position: relative;
+                        top: 18px;
+                        margin-right: 200px;
+
+                        .SubCuadro1__SubMitad3-1{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad3-1__Titulo3{
+                                text-align: center;
+                                position: relative;
+                                top: 20px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadro1__SubMitad3-2{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .Bar3{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+                //-----------------⬜Fila2__SubCuadro2⬜-----------------
+
+
+                //-----------------⬜Fila2__SubCuadro3⬜-----------------
+                    .Fila2__SubCuadro3{
+                        height: 140px;
+                        width: 200px;
+                        background-color: map-get($DeCuadroForm, Subcuadros);
+                        border-radius: 50px;
+                        position: relative;
+                        top: 18px;
+
+                        .SubCuadro1__SubMitad4-1{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad4-1__Titulo4{
+                                text-align: center;
+                                position: relative;
+                                top: 20px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadro1__SubMitad4-2{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .Bar4{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+                //-----------------⬜Fila2__SubCuadro3⬜-----------------
+                }
+//-----------------🟠Fila2🟠-----------------
+        }
+
+        }
+
+
+        .FilaFormMob{
+            display: none;
+        }
+
+//----------------🔶FilaButton🔶----------------
+        .FilaButton{
+            height: 100px;
+            width: 100%;
+            background-color: map-get($DeFilaButton, FilaButton);
+            display: flex;
+            justify-content: center;
+
+            .FilaButton__Button{
+                height: 80px;
+                width: 180px;
+                border-radius: 50px;
+                background-color: map-get($DeFilaButton, Button);
+                position: relative;
+                top: 10px;
+                transition: all 3s;
+
+                .TextButton{
+                    font-family: "fuenteC";
+                    color: rgb(0, 0, 0);
+                    font-size: 23px;
+                    position: relative;
+                    top: 10px;
+                } 
+        }
+    }
+
+    .FilaButton__Button:hover{
+        height: 80px;
+        width: 180px;
+        border-radius: 50px;
+        background-color: rgb(11, 202, 11);
+        position: relative;
+        top: 10px;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.685); 
+    }
+//----------------🔶FilaButton🔶----------------
+}
+
+//----------------🔶FilaPublicidad🔶----------------
+
+                .FilaPublicidad{
+                    height: 100px;
+                    width: 100%;
+                    background-color: map-get($DeFilaPublicidad, FilaPublicidad);
+                    display: flex;
+                    justify-content: center;
+
+                    .oferta{
+                        font-family: "fuenteC";
+                        color: rgb(0, 0, 0);
+                        font-size: 50px;
+                        position: relative;
+                        top: 25px;
+                        text-shadow: 5px 2px 4px rgba(99, 99, 99, 0.342); 
+                    }
+                }
+//----------------🔶FilaPublicidad🔶----------------
+
+
+//----------------⭐FilaHoteles⭐----------------
+                .FilaHoteles{
+                    height: 300px;
+                    width: 100%;
+                    background-color: map-get($Filashoteles, FilaHoteles);
+                    display: flex;
+                    justify-content: space-evenly;
+
+
+        //----------------✅CardHotel1  -  FilaHoteles✅----------------
+                    .FilaHoteles__CardHotel1{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+	                    object-fit: cover;
+
+                        .Fil1__MitadHotel1-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 1.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil1__FilaStar1{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil1__MitadHotel1-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles__CardHotel1:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+            //----------------✅CardHotel1  -  FilaHoteles✅----------------
+
+
+            //----------------✅CardHotel2  -  FilaHoteles✅----------------
+                    .FilaHoteles__CardHotel2{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil1__MitadHotel2-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 2.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil1__FilaStar2{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil1__MitadHotel2-2{
+                            @include MitadHotelBottom;
+
+                                .SubMitadHotel1{
+                                    @include SubMitadHotel1;
+
+                                    .TituloHotel{
+                                        @include TituloHotel;
+                                    }
+                                }
+
+                                .SubMitadHotel2{
+                                    @include SubMitadHotel2;
+
+                                    .PrecioHotel{
+                                        @include PrecioHotel;
+                                    }
+                                }
+                        }
+
+                    }
+
+                    .FilaHoteles__CardHotel2:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+            //----------------✅CardHotel2  -  FilaHoteles✅----------------
+
+
+            //----------------✅CardHotel3  -  FilaHoteles✅----------------
+                    .FilaHoteles__CardHotel3{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil1__MitadHotel3-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 3.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil1__FilaStar3{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil1__MitadHotel3-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .FilaHoteles__CardHotel3:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+            //----------------✅CardHotel3  -  FilaHoteles✅----------------
+
+
+            //----------------✅CardHotel4  -  FilaHoteles✅----------------
+                    .FilaHoteles__CardHotel4{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil1__MitadHotel4-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 4.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil1__FilaStar4{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil1__MitadHotel4-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .FilaHoteles__CardHotel4:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+            //----------------✅CardHotel4  -  FilaHoteles✅----------------
+                }
+
+
+
+                .FilaHoteles2{
+                    height: 300px;
+                    width: 100%;
+                    background-color: map-get($Filashoteles, FilaHoteles);
+                    display: flex;
+                    justify-content: space-evenly;
+
+                //----------------✅CardHotel1  -  FilaHoteles2✅----------------
+                    .FilaHoteles2__CardHotel1{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil2__MitadHotel1-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 5.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil2__FilaStar1{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil2__MitadHotel1-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{                        
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles2__CardHotel1:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+                //----------------✅CardHotel1  -  FilaHoteles2✅----------------
+
+
+                //----------------✅CardHotel2  -  FilaHoteles2✅----------------
+                    .FilaHoteles2__CardHotel2{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil2__MitadHotel2-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 6.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil2__FilaStar2{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil2__MitadHotel2-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{                        
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles2__CardHotel2:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+                //----------------✅CardHotel2  -  FilaHoteles2✅----------------
+
+
+                //----------------✅CardHotel3  -  FilaHoteles2✅----------------
+                    .FilaHoteles2__CardHotel3{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil2__MitadHotel3-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 7.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil2__FilaStar3{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil2__MitadHotel3-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{                        
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles2__CardHotel3:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+                //----------------✅CardHotel3  -  FilaHoteles2✅----------------
+
+
+                //----------------✅CardHotel4  -  FilaHoteles2✅----------------
+                    .FilaHoteles2__CardHotel4{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil2__MitadHotel4-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 8.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil2__FilaStar4{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil2__MitadHotel4-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{                        
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles2__CardHotel4:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+                //----------------✅CardHotel4  -  FilaHoteles2✅----------------
+                }
+
+                .FilaHoteles3{
+                    height: 300px;
+                    width: 100%;
+                    background-color: map-get($Filashoteles, FilaHoteles);
+                    display: flex;
+                    justify-content: space-evenly;
+
+
+                //----------------✅CardHotel1  -  FilaHoteles3✅----------------
+                    .FilaHoteles3__CardHotel1{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil3__MitadHotel1-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 9.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil3__FilaStar1{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil3__MitadHotel1-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{                        
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles3__CardHotel1:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+                //----------------✅CardHotel1  -  FilaHoteles3✅----------------
+
+
+                //----------------✅CardHotel2  -  FilaHoteles3✅----------------
+                    .FilaHoteles3__CardHotel2{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil3__MitadHotel2-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 10.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil3__FilaStar2{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil3__MitadHotel2-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{                        
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles3__CardHotel2:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+                //----------------✅CardHotel2  -  FilaHoteles3✅----------------
+
+
+                //----------------✅CardHotel3  -  FilaHoteles3✅----------------
+                    .FilaHoteles3__CardHotel3{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil3__MitadHotel3-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 11.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil3__FilaStar3{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil3__MitadHotel3-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{                        
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles3__CardHotel3:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+                //----------------✅CardHotel3  -  FilaHoteles3✅----------------
+
+
+                //----------------✅CardHotel4  -  FilaHoteles3✅----------------
+                    .FilaHoteles3__CardHotel4{
+                        height: 270px;
+                        width: 230px;
+                        border-radius: 30px;
+                        background-color: map-get($Filashoteles, CardHoteles);
+                        position: relative;
+                        top: 15px;
+                        transition: 0.5s;
+                        object-fit: cover;
+
+                        .Fil3__MitadHotel4-1{
+                            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 12.jpg");
+                            @include Bg;
+                            @include MitadHotelTop;
+
+                            .Fil3__FilaStar4{
+                                @include FilaStar;
+                            }
+                        }
+
+                        .Fil3__MitadHotel4-2{
+                            @include MitadHotelBottom;
+
+                            .SubMitadHotel1{
+                                @include SubMitadHotel1;
+
+                                .TituloHotel{                        
+                                    @include TituloHotel;
+                                }
+                            }
+
+                            .SubMitadHotel2{
+                                @include SubMitadHotel2;
+
+                                .PrecioHotel{                         
+                                    @include PrecioHotel;
+                                }
+                            }
+                        }
+                    }
+
+                    .FilaHoteles3__CardHotel4:hover{
+                        transform: scale(1.1);
+                        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                    }
+                //----------------✅CardHotel4  -  FilaHoteles3✅----------------
+                }
+//----------------⭐FilaHoteles⭐----------------
+
+                .TituloHotelTB{
+                    display: none;
+                }
+
+                .PrecioHotelTB{
+                    display: none;
+                }
+
+                .TituloHotelMD{
+                    display: none;
+                }
+
+                .PrecioHotelMD{
+                    display: none;
+                }
+
+                .TituloHotelSM{
+                    display: none;
+                }
+
+                .PrecioHotelSM{
+                    display: none;
+                }
+
+    }
+
+
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+}
+
+
+// ------------- 📕Media query moviles muy pequeños📕 -------------
+@media(max-width: 576px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Alj{
+
+    .main__Plantilla-Alj{
+        margin-top: 90px;
+        height: 100%;
+
+        .Mq-Titulo-Alj{
+            height: 65px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0);
+
+            .Titulo_Alj{
+                font-size: 45px;
+            }
+        }
+
+    .FondoCuadro{
+        background-image: url("../Imagenes/IMG-Alojamiento/CuadroFondo_ALJ.png");
+        @include Bg;
+        background-color: rgba(255, 255, 255, 0);
+        width: 100%;
+        border-radius: 25px;
+        box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.315);
+            
+        .FilaForm{
+            height: 705px;
+            width: 100%;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+            display: none;
+        }
+
+        .FilaFormMob{
+            height: 805px;
+            width: 100%;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+
+            .CuadroFormMob{
+                height: 800px;
+                width: 800px;
+                background-color: map-get($DeCuadroForm, CuadroForm);
+                position: relative;
+                top: 14px;
+                border-radius: 50px;
+
+    //-----------------🟠Fila1🟠-----------------
+                .CuadroFormMob__Fila1{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila1);
+                    @include RadiusTop;
+                    display: flex;
+                    justify-content: center;
+
+
+            //-----------------⬜Fila1__SubCuadroMob1⬜-----------------
+                    .Fila1__SubCuadroMob1{
+                        height: 146px;
+                        width: 230px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob1__SubMitad1{
+                            height: 73px;
+                            width: 230px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo1{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob1__SubMitad2{
+                            height: 73px;
+                            width: 230px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob1{
+                                @include SubBarsALJPrincipal;
+                            }
+                        }
+                    }
+            //-----------------⬜Fila1__SubCuadroMob1⬜-----------------
+                }
+    //-----------------🟠Fila1🟠-----------------
+
+
+    //-----------------🟠Fila2🟠-----------------
+                .CuadroFormMob__Fila2{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila2);
+                    display: flex;
+                    justify-content: center;
+
+        //-----------------⬜Fila2__SubCuadroMob2⬜-----------------
+                    .Fila2__SubCuadroMob2{
+                        height: 145px;
+                        width: 230px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob2__SubMitad1{
+                            height: 73px;
+                            width: 230px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo2{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob2__SubMitad2{
+                            height: 73px;
+                            width: 230px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob2{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+        //-----------------⬜Fila2__SubCuadroMob2⬜-----------------
+                }
+    //-----------------🟠Fila2🟠-----------------
+
+
+    //-----------------🟠Fila3🟠-----------------
+                .CuadroFormMob__Fila3{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila3);
+                    display: flex;
+                    justify-content: center;
+
+        //-----------------⬜Fila3__SubCuadroMob3⬜-----------------
+                    .Fila3__SubCuadroMob3{
+                        height: 145px;
+                        width: 230px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob3__SubMitad1{
+                            height: 73px;
+                            width: 230px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo3{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob3__SubMitad2{
+                            height: 73px;
+                            width: 230px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob3{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+        //-----------------⬜Fila3__SubCuadroMob3⬜-----------------
+                }
+    //-----------------🟠Fila3🟠-----------------
+
+
+    //-----------------🟠Fila4🟠-----------------
+                .CuadroFormMob__Fila4{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila4);
+                    @include RadiusBottom;
+                    display: flex;
+                    justify-content: center;
+
+    //-----------------⬜Fila4__SubCuadroMob4⬜-----------------
+                    .Fila4__SubCuadroMob4{
+                        height: 145px;
+                        width: 230px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob4__SubMitad1{
+                            height: 73px;
+                            width: 230px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo4{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob4__SubMitad2{
+                            height: 73px;
+                            width: 230px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob4{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+    //-----------------⬜Fila4__SubCuadroMob4⬜-----------------
+                }
+    //-----------------🟠Fila4🟠-----------------
+            }
+        }
+
+        
+//----------------🔶FilaButton🔶----------------
+.FilaButton{
+    height: 100px;
+    width: 100%;
+    background-color: map-get($DeFilaButton, FilaButton);
+    display: flex;
+    justify-content: center;
+
+    .FilaButton__Button{
+        height: 80px;
+        width: 180px;
+        border-radius: 50px;
+        background-color: map-get($DeFilaButton, Button);
+        position: relative;
+        top: 10px;
+        transition: all 4s;
+
+        .TextButton{
+            font-family: "fuenteC";
+            color: rgb(0, 0, 0);
+            font-size: 23px;
+            position: relative;
+            top: 10px;
+        } 
+}
+}
+
+.FilaButton__Button:hover{
+    height: 80px;
+    width: 180px;
+    border-radius: 50px;
+    background-color: rgb(11, 202, 11);
+    position: relative;
+    top: 10px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.685); 
+}
+//----------------🔶FilaButton🔶----------------
+}
+
+//----------------🔶FilaPublicidad🔶----------------
+
+        .FilaPublicidad{
+            height: 100px;
+            width: 100%;
+            background-color: map-get($DeFilaPublicidad, FilaPublicidad);
+            display: flex;
+            justify-content: center;
+
+            .oferta{
+                font-family: "fuenteC";
+                color: rgb(0, 0, 0);
+                font-size: 35px;
+                position: relative;
+                top: 25px;
+                text-shadow: 5px 2px 4px rgba(99, 99, 99, 0.342);
+            }
+        }
+//----------------🔶FilaPublicidad🔶----------------
+
+        .FilaHoteles{
+            display: none;
+        }
+
+        .FilaHoteles2{
+            display: none;
+        }
+
+        .FilaHoteles3{
+            display: none;
+        }
+
+
+   //----------⭐FilaHotelesMobileSM⭐----------
+    .HotelesSM{
+            
+    .FilaHotelesSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHotelesMobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 1.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+
+                        .PrecioHotelSM{                         
+                            @include PrecioHotel;
+                        } 
+                    } 
+                }
+            }
+        }
+
+        .FilaHotelesMobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+}
+
+.FilaHoteles2MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+    .FilaHoteles2MobileSM__CardHotel1{
+        height: 250px;
+        width: 200px;
+        border-radius: 30px;
+        background-color: map-get($Filashoteles, CardHoteles);
+        position: relative;
+        top: 15px;
+        transition: 0.5s;
+        object-fit: cover;
+
+        .FilSM2__MitadHotel1-1{
+            background-image: url("../Imagenes/IMG-Alojamiento/Hotel 2.jpg");
+            @include Bg;
+            @include MitadHotelMDTop;
+
+            .FilSM2__FilaStar1{
+                @include FilaStarMD;
+            }
+        }
+
+        .FilSM2__MitadHotel1-2{
+            @include MitadHotelMDBottom;
+
+            .SubMitadHotel1{
+                @include SubMitadHotelMD1;
+
+                .TituloHotelSM{                        
+                    @include TituloHotel;
+                }
+            }
+            
+            .SubMitadHotel2{
+                @include SubMitadHotelMD2;
+
+                .PrecioHotelSM{                         
+                    @include PrecioHotel;
+                } 
+            }
+        }
+    }
+
+    .FilaHoteles2MobileSM__CardHotel1:hover{
+        transform: scale(1.1);
+        box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+    }
+}
+
+.FilaHoteles3MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles3MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM3__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 3.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM3__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM3__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles3MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+.FilaHoteles4MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles4MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM4__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 4.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM4__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM4__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles4MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+.FilaHoteles5MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles5MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM5__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 5.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM5__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM5__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles5MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+.FilaHoteles6MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles6MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM6__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 6.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM6__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM6__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles6MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+.FilaHoteles7MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles7MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM7__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 7.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM7__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM7__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles7MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+
+.FilaHoteles8MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles8MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM8__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 8.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM8__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM8__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles8MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+
+.FilaHoteles9MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles9MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM9__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 9.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM9__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM9__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles9MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+
+
+.FilaHoteles10MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles10MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM10__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 10.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM10__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM10__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles10MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+
+.FilaHoteles11MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles11MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM11__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 11.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM11__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM11__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+}
+
+.FilaHoteles11MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+
+
+
+.FilaHoteles12MobileSM{
+    height: 280px;
+    width: 100%;
+    background-color: map-get($Filashoteles, FilaHoteles);
+    display: flex;
+    justify-content: space-evenly;
+
+.FilaHoteles12MobileSM__CardHotel1{
+    height: 250px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: map-get($Filashoteles, CardHoteles);
+    position: relative;
+    top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+
+    .FilSM12__MitadHotel1-1{
+        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 12.jpg");
+        @include Bg;
+        @include MitadHotelMDTop;
+
+        .FilSM12__FilaStar1{
+            @include FilaStarMD;
+        }
+    }
+
+    .FilSM12__MitadHotel1-2{
+        @include MitadHotelMDBottom;
+
+        .SubMitadHotel1{
+            @include SubMitadHotelMD1;
+
+            .TituloHotelSM{                        
+                @include TituloHotel;
+            }
+        }
+        
+        .SubMitadHotel2{
+            @include SubMitadHotelMD2;
+
+            .PrecioHotelSM{                         
+                @include PrecioHotel;
+            } 
+        }
+    }
+} 
+
+.FilaHoteles12MobileSM__CardHotel1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+}
+}
+}
+//----------⭐FilaHotelesMobileSM⭐----------
+
+        .TituloHotelTB{
+            display: none;
+        }
+
+        .PrecioHotelTB{
+            display: none;
+        }
+
+        .TituloHotelMD{
+            display: none;
+        }
+
+        .PrecioHotelMD{
+            display: none;
+        }
+
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+
+
+@media(min-width: 417px) and (max-width: 577px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Alj{
+
+    .main__Plantilla-Alj{
+        margin-top: 90px;
+        height: 100%;
+
+        .Mq-Titulo-Alj{
+            height: 65px;
+            width: 100%;
+            background-color: rgba(160, 7, 160, 0);
+
+            .Titulo_Alj{
+                font-size: 45px;
+            }
+        }
+
+.FondoCuadro{
+    background-image: url("../Imagenes/IMG-Alojamiento/CuadroFondo_ALJ.png");
+    @include Bg;
+    background-color: rgba(126, 8, 156, 0);
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.315);
+
+        .FilaForm{
+            height: 705px;
+            width: 100%;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+            display: none;
+        }
+
+.Flex-ContainerMB{
+    display: flex;
+    justify-content: center;
+
+        .FilaFormMob{
+            height: 805px;
+            width: 450px;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+            
+            .CuadroFormMob{
+                height: 800px;
+                width: 800px;
+                background-color: map-get($DeCuadroForm, CuadroForm);
+                position: relative;
+                top: 14px;
+                border-radius: 50px;
+
+    //-----------------🟠Fila1🟠-----------------
+                .CuadroFormMob__Fila1{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila1);
+                    @include RadiusTop;
+                    display: flex;
+                    justify-content: center;
+
+
+            //-----------------⬜Fila1__SubCuadroMob1⬜-----------------
+                    .Fila1__SubCuadroMob1{
+                        height: 146px;
+                        width: 260px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob1__SubMitad1{
+                            height: 73px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo1{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob1__SubMitad2{
+                            height: 73px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob1{
+                                @include SubBarsALJPrincipal;
+                            }
+                        }
+                    }
+            //-----------------⬜Fila1__SubCuadroMob1⬜-----------------
+                }
+    //-----------------🟠Fila1🟠-----------------
+
+
+    //-----------------🟠Fila2🟠-----------------
+                .CuadroFormMob__Fila2{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila2);
+                    display: flex;
+                    justify-content: center;
+
+        //-----------------⬜Fila2__SubCuadroMob2⬜-----------------
+                    .Fila2__SubCuadroMob2{
+                        height: 145px;
+                        width: 260px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob2__SubMitad1{
+                            height: 73px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo2{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob2__SubMitad2{
+                            height: 73px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob2{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+        //-----------------⬜Fila2__SubCuadroMob2⬜-----------------
+                }
+    //-----------------🟠Fila2🟠-----------------
+
+
+    //-----------------🟠Fila3🟠-----------------
+                .CuadroFormMob__Fila3{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila3);
+                    display: flex;
+                    justify-content: center;
+
+        //-----------------⬜Fila3__SubCuadroMob3⬜-----------------
+                    .Fila3__SubCuadroMob3{
+                        height: 145px;
+                        width: 260px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob3__SubMitad1{
+                            height: 73px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo3{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob3__SubMitad2{
+                            height: 73px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob3{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+        //-----------------⬜Fila3__SubCuadroMob3⬜-----------------
+                }
+    //-----------------🟠Fila3🟠-----------------
+
+
+    //-----------------🟠Fila4🟠-----------------
+                .CuadroFormMob__Fila4{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila4);
+                    @include RadiusBottom;
+                    display: flex;
+                    justify-content: center;
+
+    //-----------------⬜Fila4__SubCuadroMob4⬜-----------------
+                    .Fila4__SubCuadroMob4{
+                        height: 145px;
+                        width: 260px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob4__SubMitad1{
+                            height: 73px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo4{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob4__SubMitad2{
+                            height: 73px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob4{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+    //-----------------⬜Fila4__SubCuadroMob4⬜-----------------
+                }
+    //-----------------🟠Fila4🟠-----------------
+            }
+        }
+}
+
+    //----------------🔶FilaButton🔶----------------
+    .FilaButton{
+        height: 100px;
+        width: 100%;
+        background-color: map-get($DeFilaButton, FilaButton);
+        display: flex;
+        justify-content: center;
+
+        .FilaButton__Button{
+            height: 80px;
+            width: 180px;
+            border-radius: 50px;
+            background-color: map-get($DeFilaButton, Button);
+            position: relative;
+            top: 10px;
+            transition: all 4s;
+
+            .TextButton{
+                font-family: "fuenteC";
+                color: rgb(0, 0, 0);
+                font-size: 23px;
+                position: relative;
+                top: 10px;
+            } 
+    }
+}
+
+    .FilaButton__Button:hover{
+        height: 80px;
+        width: 180px;
+        border-radius: 50px;
+        background-color: rgb(11, 202, 11);
+        position: relative;
+        top: 10px;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.685); 
+    }
+//----------------🔶FilaButton🔶----------------
+}
+        .FilaHoteles{
+            display: none;
+        }
+    
+        .FilaHoteles2{
+            display: none;
+        }
+    
+        .FilaHoteles3{
+            display: none;
+        } 
+    
+        .HotelesTablet{
+            display: none;
+        } 
+        
+        .HotelesMD{
+            display: none;
+        }
+
+
+//----------⭐FilaHotelesMobileSM⭐----------
+        .HotelesSM{
+            
+            .FilaHotelesSM{
+                height: 280px;
+                width: 100%;
+                background-color: map-get($Filashoteles, FilaHoteles);
+                display: flex;
+                justify-content: space-evenly;
+    
+                .FilaHotelesMobileSM__CardHotel1{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .FilSM__MitadHotel1-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 1.jpg");
+                        @include Bg;
+                        @include MitadHotelMDTop;
+    
+                        .FilSM__FilaStar1{
+                            @include FilaStarMD;
+                        }
+                    }
+    
+                    .FilSM__MitadHotel1-2{
+                        @include MitadHotelMDBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelMD1;
+
+                            .TituloHotelSM{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelMD2;
+
+                            .PrecioHotelSM{                         
+                                @include PrecioHotel;
+
+                                .PrecioHotelSM{                         
+                                    @include PrecioHotel;
+                                } 
+                            } 
+                        }
+                    }
+                }
+
+                .FilaHotelesMobileSM__CardHotel1:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+        }
+
+        .FilaHoteles2MobileSM{
+            height: 280px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+            .FilaHoteles2MobileSM__CardHotel1{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+
+                .FilSM2__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 2.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilSM2__FilaStar1{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilSM2__MitadHotel1-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelSM{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelSM{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles2MobileSM__CardHotel1:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+    }
+
+    .FilaHoteles3MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles3MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM3__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 3.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM3__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM3__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+
+        .FilaHoteles3MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+
+    .FilaHoteles4MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles4MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM4__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 4.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM4__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM4__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+
+        .FilaHoteles4MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+}
+
+    .FilaHoteles5MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles5MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM5__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 5.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM5__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM5__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+
+        .FilaHoteles5MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+
+    .FilaHoteles6MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles6MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM6__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 6.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM6__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM6__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+        
+        .FilaHoteles6MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+
+    .FilaHoteles7MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles7MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM7__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 7.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM7__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM7__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+        
+        .FilaHoteles7MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+
+    .FilaHoteles8MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles8MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM8__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 8.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM8__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM8__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+        
+        .FilaHoteles8MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+
+    .FilaHoteles9MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles9MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM9__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 9.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM9__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM9__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+        
+        .FilaHoteles9MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+
+    .FilaHoteles10MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles10MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM10__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 10.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM10__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM10__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+        
+        .FilaHoteles10MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+
+    .FilaHoteles11MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles11MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM11__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 11.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM11__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM11__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        }
+        
+        .FilaHoteles11MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+
+    .FilaHoteles12MobileSM{
+        height: 280px;
+        width: 100%;
+        background-color: map-get($Filashoteles, FilaHoteles);
+        display: flex;
+        justify-content: space-evenly;
+
+        .FilaHoteles12MobileSM__CardHotel1{
+            height: 250px;
+            width: 200px;
+            border-radius: 30px;
+            background-color: map-get($Filashoteles, CardHoteles);
+            position: relative;
+            top: 15px;
+            transition: 0.5s;
+            object-fit: cover;
+
+            .FilSM12__MitadHotel1-1{
+                background-image: url("../Imagenes/IMG-Alojamiento/Hotel 12.jpg");
+                @include Bg;
+                @include MitadHotelMDTop;
+
+                .FilSM12__FilaStar1{
+                    @include FilaStarMD;
+                }
+            }
+
+            .FilSM12__MitadHotel1-2{
+                @include MitadHotelMDBottom;
+
+                .SubMitadHotel1{
+                    @include SubMitadHotelMD1;
+
+                    .TituloHotelSM{                        
+                        @include TituloHotel;
+                    }
+                }
+                
+                .SubMitadHotel2{
+                    @include SubMitadHotelMD2;
+
+                    .PrecioHotelSM{                         
+                        @include PrecioHotel;
+                    } 
+                }
+            }
+        } 
+        
+        .FilaHoteles12MobileSM__CardHotel1:hover{
+            transform: scale(1.1);
+            box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+        }
+    }
+    }
+//----------⭐FilaHotelesMobileSM⭐----------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📕Media query moviles muy pequeños📕 -------------
+
+
+// ------------- 📕Media query moviles pequeños📕 -------------
+@media(min-width: 576px) and (max-width: 767px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Alj{
+
+    .main__Plantilla-Alj{
+        margin-top: 90px;
+        height: 100%;
+
+        .Mq-Titulo-Alj{
+            height: 65px;
+            width: 100%;
+
+            .Titulo_Alj{
+                font-size: 45px;
+            }
+        }
+
+.FondoCuadro{
+    background-image: url("../Imagenes/IMG-Alojamiento/CuadroFondo_ALJ.png");
+    @include Bg;
+    background-color: rgb(31, 155, 6);
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.315);
+
+        .FilaForm{
+            height: 705px;
+            width: 100%;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+            display: none;
+        }
+
+.Flex-ContainerMB{
+    display: flex;
+    justify-content: center;
+
+        .FilaFormMob{
+            height: 805px;
+            width: 500px;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+            
+            .CuadroFormMob{
+                height: 800px;
+                width: 800px;
+                background-color: map-get($DeCuadroForm, CuadroForm);
+                position: relative;
+                top: 14px;
+                border-radius: 50px;
+
+    //-----------------🟠Fila1🟠-----------------
+                .CuadroFormMob__Fila1{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila1);
+                    @include RadiusTop;
+                    display: flex;
+                    justify-content: center;
+
+
+            //-----------------⬜Fila1__SubCuadroMob1⬜-----------------
+                    .Fila1__SubCuadroMob1{
+                        height: 146px;
+                        width: 270px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob1__SubMitad1{
+                            height: 73px;
+                            width: 270px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo1{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob1__SubMitad2{
+                            height: 73px;
+                            width: 270px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob1{
+                                @include SubBarsALJPrincipal;
+                            }
+                        }
+                    }
+            //-----------------⬜Fila1__SubCuadroMob1⬜-----------------
+                }
+    //-----------------🟠Fila1🟠-----------------
+
+
+    //-----------------🟠Fila2🟠-----------------
+                .CuadroFormMob__Fila2{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila2);
+                    display: flex;
+                    justify-content: center;
+
+        //-----------------⬜Fila2__SubCuadroMob2⬜-----------------
+                    .Fila2__SubCuadroMob2{
+                        height: 145px;
+                        width: 270px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob2__SubMitad1{
+                            height: 73px;
+                            width: 270px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo2{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob2__SubMitad2{
+                            height: 73px;
+                            width: 270px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob2{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+        //-----------------⬜Fila2__SubCuadroMob2⬜-----------------
+                }
+    //-----------------🟠Fila2🟠-----------------
+
+
+    //-----------------🟠Fila3🟠-----------------
+                .CuadroFormMob__Fila3{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila3);
+                    display: flex;
+                    justify-content: center;
+
+        //-----------------⬜Fila3__SubCuadroMob3⬜-----------------
+                    .Fila3__SubCuadroMob3{
+                        height: 145px;
+                        width: 270px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob3__SubMitad1{
+                            height: 73px;
+                            width: 270px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo3{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob3__SubMitad2{
+                            height: 73px;
+                            width: 270px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob3{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+        //-----------------⬜Fila3__SubCuadroMob3⬜-----------------
+                }
+    //-----------------🟠Fila3🟠-----------------
+
+
+    //-----------------🟠Fila4🟠-----------------
+                .CuadroFormMob__Fila4{
+                    height: 200px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroFormMob, Fila4);
+                    @include RadiusBottom;
+                    display: flex;
+                    justify-content: center;
+
+    //-----------------⬜Fila4__SubCuadroMob4⬜-----------------
+                    .Fila4__SubCuadroMob4{
+                        height: 145px;
+                        width: 270px;
+                        background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                        position: relative;
+                        top: 25px;
+                        border-radius: 50px;
+
+                        .SubCuadroMob4__SubMitad1{
+                            height: 73px;
+                            width: 270px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1__Titulo4{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadroMob4__SubMitad2{
+                            height: 73px;
+                            width: 270px;
+                            background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .BarMob4{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+    //-----------------⬜Fila4__SubCuadroMob4⬜-----------------
+                }
+    //-----------------🟠Fila4🟠-----------------
+            }
+    }
+
+}
+//----------------🔶FilaButton🔶----------------
+    .FilaButton{
+        height: 100px;
+        width: 100%;
+        background-color: map-get($DeFilaButton, FilaButton);
+        display: flex;
+        justify-content: center;
+
+        .FilaButton__Button{
+            height: 80px;
+            width: 180px;
+            border-radius: 50px;
+            background-color: map-get($DeFilaButton, Button);
+            position: relative;
+            top: 10px;
+            transition: all 4s;
+
+            .TextButton{
+                font-family: "fuenteC";
+                color: rgb(0, 0, 0);
+                font-size: 23px;
+                position: relative;
+                top: 10px;
+            } 
+    }
+}
+
+    .FilaButton__Button:hover{
+        height: 80px;
+        width: 180px;
+        border-radius: 50px;
+        background-color: rgb(11, 202, 11);
+        position: relative;
+        top: 10px;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.685); 
+    }
+//----------------🔶FilaButton🔶----------------
+}
+
+//----------------🔶FilaPublicidad🔶----------------
+
+            .FilaPublicidad{
+                height: 100px;
+                width: 100%;
+                background-color: map-get($DeFilaPublicidad, FilaPublicidad);
+                display: flex;
+                justify-content: center;
+
+                .oferta{
+                    font-family: "fuenteC";
+                    color: rgb(0, 0, 0);
+                    font-size: 50px;
+                    position: relative;
+                    top: 25px;
+                    text-shadow: 5px 2px 4px rgba(99, 99, 99, 0.342);
+                }
+            }
+//----------------🔶FilaPublicidad🔶----------------
+
+    .FilaHoteles{
+        display: none;
+    }
+
+    .FilaHoteles2{
+        display: none;
+    }
+
+    .FilaHoteles3{
+        display: none;
+    } 
+
+    .HotelesTablet{
+        display: none;
+    } 
+
+//----------⭐FilaHotelesMobileMD⭐----------
+    .HotelesMD{
+
+        .FilaHotelesMD{
+            height: 280px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+//----------------✅CardHotel1 - FilaHotelesMobileMD✅----------------
+            .FilaHotelesMobileMD__CardHotel1{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 1.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD__FilaStar1{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD__MitadHotel1-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+
+            }
+
+            .FilaHotelesMobileMD__CardHotel1:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel1 - FilaHotelesMobileMD✅----------------
+
+
+//----------------✅CardHotel2 - FilaHotelesMobileMD✅----------------
+            .FilaHotelesMobileMD__CardHotel2{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 2.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD__FilaStar2{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD__MitadHotel2-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            } 
+
+            .FilaHotelesMobileMD__CardHotel2:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel2 - FilaHotelesMobileMD✅----------------
+        }
+
+        .FilaHoteles2MobileMD{
+            height: 280px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+
+//----------------✅CardHotel1 - FilaHoteles2MobileMD✅----------------
+            .FilaHoteles2MobileMD__CardHotel1{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD2__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 3.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD2__FilaStar1{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD2__MitadHotel1-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles2MobileMD__CardHotel1:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel1 - FilaHoteles2MobileMD✅----------------
+
+
+//----------------✅CardHotel2 - FilaHoteles2MobileMD✅----------------
+            .FilaHoteles2MobileMD__CardHotel2{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD2__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 4.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD2__FilaStar2{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD2__MitadHotel2-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles2MobileMD__CardHotel2:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel2 - FilaHoteles2MobileMD✅----------------
+        }
+
+        .FilaHoteles3MobileMD{
+            height: 280px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+//----------------✅CardHotel1 - FilaHoteles3MobileMD✅----------------
+            .FilaHoteles3MobileMD__CardHotel1{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD3__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 5.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD3__FilaStar1{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD3__MitadHotel1-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles3MobileMD__CardHotel1:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel1 - FilaHoteles3MobileMD✅----------------
+
+
+//----------------✅CardHotel2 - FilaHoteles3MobileMD✅----------------
+            .FilaHoteles3MobileMD__CardHotel2{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD3__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 6.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD3__FilaStar2{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD3__MitadHotel2-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles3MobileMD__CardHotel2:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel2 - FilaHoteles3MobileMD✅----------------
+        }
+
+        .FilaHoteles4MobileMD{
+            height: 280px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+//----------------✅CardHotel1 - FilaHoteles4MobileMD✅----------------
+            .FilaHoteles4MobileMD__CardHotel1{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD4__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 7.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD4__FilaStar1{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD4__MitadHotel1-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles4MobileMD__CardHotel1:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel1 - FilaHoteles4MobileMD✅----------------
+
+
+//----------------✅CardHotel2 - FilaHoteles4MobileMD✅----------------
+            .FilaHoteles4MobileMD__CardHotel2{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD4__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 8.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD4__FilaStar2{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD4__MitadHotel2-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles4MobileMD__CardHotel2:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel2 - FilaHoteles4MobileMD✅----------------
+        }
+
+        .FilaHoteles5MobileMD{
+            height: 280px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+//----------------✅CardHotel1 - FilaHoteles5MobileMD✅----------------
+            .FilaHoteles5MobileMD__CardHotel1{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD5__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 9.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD5__FilaStar1{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD5__MitadHotel1-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles5MobileMD__CardHotel1:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel1 - FilaHoteles5MobileMD✅----------------
+
+
+//----------------✅CardHotel2 - FilaHoteles5MobileMD✅----------------
+            .FilaHoteles5MobileMD__CardHotel2{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD5__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 10.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD5__FilaStar2{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD5__MitadHotel2-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles5MobileMD__CardHotel2:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel2 - FilaHoteles5MobileMD✅----------------
+        }
+
+        .FilaHoteles6MobileMD{
+            height: 280px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+//----------------✅CardHotel1 - FilaHoteles6MobileMD✅----------------
+            .FilaHoteles6MobileMD__CardHotel1{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD6__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 11.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD6__FilaStar1{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD6__MitadHotel1-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles6MobileMD__CardHotel1:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel1 - FilaHoteles6MobileMD✅----------------
+
+
+//----------------✅CardHotel2 - FilaHoteles6MobileMD✅----------------
+            .FilaHoteles6MobileMD__CardHotel2{
+                height: 250px;
+                width: 200px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+
+                .FilMD6__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 12.jpg");
+                    @include Bg;
+                    @include MitadHotelMDTop;
+
+                    .FilMD6__FilaStar2{
+                        @include FilaStarMD;
+                    }
+                }
+
+                .FilMD6__MitadHotel2-2{
+                    @include MitadHotelMDBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotelMD1;
+
+                        .TituloHotelMD{                        
+                            @include TituloHotel;
+                        }
+                    }
+                    
+                    .SubMitadHotel2{
+                        @include SubMitadHotelMD2;
+
+                        .PrecioHotelMD{                         
+                            @include PrecioHotel;
+                        } 
+                    }
+                }
+            }
+
+            .FilaHoteles6MobileMD__CardHotel2:hover{
+                transform: scale(1.1);
+                box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+            }
+//----------------✅CardHotel2 - FilaHoteles6MobileMD✅----------------
+        } 
+        
+    }
+    //----------⭐FilaHotelesMobileMD⭐----------
+
+    .HotelesSM{
+        display: none;
+    } 
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+}
+
+@media(min-width: 576px) and (max-width: 643px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Alj{
+
+    .main__Plantilla-Alj{
+        margin-top: 90px;
+        height: 100%;
+
+        .Mq-Titulo-Alj{
+            height: 65px;
+            width: 100%;
+            background-color: rgba(255, 0, 0, 0);
+
+            .Titulo_Alj{
+                font-size: 45px;
+            }
+        }
+
+
+        .FilaForm{
+            height: 705px;
+            width: 100%;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+            display: none;
+        }
+
+        .FilaFormMob{
+            height: 805px;
+            width: 100%;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+            
+            .CuadroFormMob{
+                height: 800px;
+                width: 800px;
+                background-color: map-get($DeCuadroForm, CuadroForm);
+                position: relative;
+                top: 14px;
+                border-radius: 50px;
+
+                .CuadroFormMob{
+                    height: 800px;
+                    width: 800px;
+                    background-color: map-get($DeCuadroForm, CuadroForm);
+                    position: relative;
+                    top: 14px;
+                    border-radius: 50px;
+    
+        //-----------------🟠Fila1🟠-----------------
+                    .CuadroFormMob__Fila1{
+                        height: 200px;
+                        width: 100%;
+                        background-color: map-get($DeCuadroFormMob, Fila1);
+                        @include RadiusTop;
+                        display: flex;
+                        justify-content: center;
+    
+    
+                //-----------------⬜Fila1__SubCuadroMob1⬜-----------------
+                        .Fila1__SubCuadroMob1{
+                            height: 146px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                            position: relative;
+                            top: 25px;
+                            border-radius: 50px;
+    
+                            .SubCuadroMob1__SubMitad1{
+                                height: 73px;
+                                width: 260px;
+                                background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                                @include RadiusTop;
+                            }
+    
+                            .SubCuadroMob1__SubMitad2{
+                                height: 73px;
+                                width: 260px;
+                                background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                                @include RadiusBottom;
+                            }
+                        }
+                //-----------------⬜Fila1__SubCuadroMob1⬜-----------------
+                    }
+        //-----------------🟠Fila1🟠-----------------
+    
+    
+        //-----------------🟠Fila2🟠-----------------
+                    .CuadroFormMob__Fila2{
+                        height: 200px;
+                        width: 100%;
+                        background-color: map-get($DeCuadroFormMob, Fila2);
+                        display: flex;
+                        justify-content: center;
+    
+            //-----------------⬜Fila2__SubCuadroMob2⬜-----------------
+                        .Fila2__SubCuadroMob2{
+                            height: 145px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                            position: relative;
+                            top: 25px;
+                            border-radius: 50px;
+    
+                            .SubCuadroMob2__SubMitad1{
+                                height: 73px;
+                                width: 260px;
+                                background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                                @include RadiusTop;
+                            }
+    
+                            .SubCuadroMob2__SubMitad2{
+                                height: 73px;
+                                width: 260px;
+                                background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                                @include RadiusBottom;
+                            }
+                        }
+            //-----------------⬜Fila2__SubCuadroMob2⬜-----------------
+                    }
+        //-----------------🟠Fila2🟠-----------------
+    
+    
+        //-----------------🟠Fila3🟠-----------------
+                    .CuadroFormMob__Fila3{
+                        height: 200px;
+                        width: 100%;
+                        background-color: map-get($DeCuadroFormMob, Fila3);
+                        display: flex;
+                        justify-content: center;
+    
+            //-----------------⬜Fila3__SubCuadroMob3⬜-----------------
+                        .Fila3__SubCuadroMob3{
+                            height: 145px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                            position: relative;
+                            top: 25px;
+                            border-radius: 50px;
+    
+                            .SubCuadroMob3__SubMitad1{
+                                height: 73px;
+                                width: 260px;
+                                background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                                @include RadiusTop;
+                            }
+    
+                            .SubCuadroMob3__SubMitad2{
+                                height: 73px;
+                                width: 260px;
+                                background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                                @include RadiusBottom;
+                            }
+                        }
+            //-----------------⬜Fila3__SubCuadroMob3⬜-----------------
+                    }
+        //-----------------🟠Fila3🟠-----------------
+    
+    
+        //-----------------🟠Fila4🟠-----------------
+                    .CuadroFormMob__Fila4{
+                        height: 200px;
+                        width: 100%;
+                        background-color: map-get($DeCuadroFormMob, Fila4);
+                        @include RadiusBottom;
+                        display: flex;
+                        justify-content: center;
+    
+        //-----------------⬜Fila4__SubCuadroMob4⬜-----------------
+                        .Fila4__SubCuadroMob4{
+                            height: 145px;
+                            width: 260px;
+                            background-color: map-get($DeCuadroFormMob, SubCuadroMob);
+                            position: relative;
+                            top: 25px;
+                            border-radius: 50px;
+    
+                            .SubCuadroMob4__SubMitad1{
+                                height: 73px;
+                                width: 260px;
+                                background-color: map-get($DeCuadroFormMob, SubMitad-top);
+                                @include RadiusTop;
+                            }
+    
+                            .SubCuadroMob4__SubMitad2{
+                                height: 73px;
+                                width: 260px;
+                                background-color: map-get($DeCuadroFormMob, SubMitad-bottom);
+                                @include RadiusBottom;
+                            }
+                        }
+        //-----------------⬜Fila4__SubCuadroMob4⬜-----------------
+                    }
+        //-----------------🟠Fila4🟠-----------------
+                }
+            }
+        }
+
+        .FilaHoteles{
+            display: none;
+        }
+
+        .FilaHoteles2{
+            display: none;
+        }
+
+        .FilaHoteles3{
+            display: none;
+        }
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📕Media query moviles pequeños📕 -------------
+
+
+// ------------- 📖Media query Tablets📖 -------------
+@media(min-width: 768px) and (max-width: 991px){
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Alj{
+
+    .main__Plantilla-Alj{
+        margin-top: 90px;
+        height: 100%;
+
+        .Mq-Titulo-Alj{
+            height: 65px;
+            width: 100%;
+            background-color: rgba(252, 93, 252, 0);
+
+            .Titulo_Alj{
+                font-size: 45px;
+            }
+        }
+
+    .FondoCuadro{
+        background-image: url("../Imagenes/IMG-Alojamiento/CuadroFondo_ALJ.png");
+        @include Bg;
+        background-color: rgb(245, 47, 195);
+        width: 100%;
+        border-radius: 25px;
+        box-shadow: 12px 5px 20px rgba(0, 0, 0, 0.315);
+
+        .FilaForm{
+            height: 405px;
+            width: 100%;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+
+            .CuadroForm{
+                height: 358px;
+                width: 800px;
+                background-color: map-get($DeCuadroForm, CuadroForm);
+                position: relative;
+                top: 24px;
+                border-radius: 50px;
+
+
+//-----------------🟠Fila1🟠-----------------
+                .CuadroForm__Fila1{
+                    height: 179px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroForm, Fila1);
+                    @include RadiusTop;
+                    display: flex;
+                    justify-content: center;
+
+            //-----------------⬜Fila1__SubCuadro1⬜-----------------
+                    .Fila1__SubCuadro1{
+                        height: 140px;   
+                        width: 380px;
+                        background-color: map-get($DeCuadroForm, Subcuadros);
+                        border-radius: 50px;
+                        position: relative;
+                        top: 20px;
+
+                        .SubCuadro1__SubMitad1-1{
+                            height: 80px;  
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad1-1__Titulo1{
+                                text-align: center;
+                                position: relative;
+                                top: 23px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadro1__SubMitad1-2{
+                            height: 80px;   
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+
+                            .Bar1{
+                                @include BarsALJ;
+                            }
+                        }
+                    }
+                //-----------------⬜Fila1__SubCuadro1⬜-----------------
+                }
+//-----------------🟠Fila1🟠-----------------
+
+
+//-----------------🟠Fila2🟠-----------------
+                .CuadroForm__Fila2{
+                    height: 179px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroForm, Fila2);
+                    @include RadiusBottom;
+                    position: relative;
+                    display: flex;
+                    justify-content: space-evenly;
+
+                //-----------------⬜Fila2__SubCuadro1⬜-----------------
+                    .Fila2__SubCuadro1{
+                        height: 140px;
+                        width: 200px;
+                        background-color: map-get($DeCuadroForm, Subcuadros);
+                        border-radius: 50px;
+                        position: absolute;
+                        top: 18px;
+
+                        .SubCuadro1__SubMitad2-1{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad2-1__Titulo2{
+                                text-align: center;
+                                position: relative;
+                                top: 20px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadro1__SubMitad2-2{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .Bar2{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+                //-----------------⬜Fila2__SubCuadro1⬜-----------------
+
+
+                //-----------------⬜Fila2__SubCuadro2⬜-----------------
+                    .Fila2__SubCuadro2{
+                        height: 140px;
+                        width: 200px;
+                        background-color: map-get($DeCuadroForm, Subcuadros);
+                        border-radius: 50px;
+                        position: relative;
+                        top: 18px;
+                        margin-right: 200px;
+
+                        .SubCuadro1__SubMitad3-1{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad3-1__Titulo3{
+                                text-align: center;
+                                position: relative;
+                                top: 20px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadro1__SubMitad3-2{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .Bar3{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+                //-----------------⬜Fila2__SubCuadro2⬜-----------------
+
+
+                //-----------------⬜Fila2__SubCuadro3⬜-----------------
+                    .Fila2__SubCuadro3{
+                        height: 140px;
+                        width: 200px;
+                        background-color: map-get($DeCuadroForm, Subcuadros);
+                        border-radius: 50px;
+                        position: relative;
+                        top: 18px;
+
+                        .SubCuadro1__SubMitad4-1{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-top);
+                            @include RadiusTop;
+
+                            .SubMitad4-1__Titulo4{
+                                text-align: center;
+                                position: relative;
+                                top: 20px;
+                                font-family: "fuenteC";
+                            }
+                        }
+
+                        .SubCuadro1__SubMitad4-2{
+                            height: 70px;
+                            width: 100%;
+                            background-color: map-get($DeCuadroForm, SubMitad-bottom);
+                            @include RadiusBottom;
+                            display: flex;
+                            justify-content: center;
+
+                            .Bar4{
+                                @include SubBarsALJ;
+                            }
+                        }
+                    }
+                //-----------------⬜Fila2__SubCuadro3⬜-----------------
+                }
+//-----------------🟠Fila2🟠-----------------
+        }
+
+        }
+
+        .FilaFormMob{
+            display: none;
+        }
+
+//----------------🔶FilaButton🔶----------------
+        .FilaButton{
+            height: 100px;
+            width: 100%;
+            background-color: map-get($DeFilaButton, FilaButton);
+            display: flex;
+            justify-content: center;
+
+            .FilaButton__Button{
+                height: 80px;
+                width: 180px;
+                border-radius: 50px;
+                background-color: map-get($DeFilaButton, Button);
+                position: relative;
+                top: 10px;
+                transition: all 4s;
+
+                .TextButton{
+                    font-family: "fuenteC";
+                    color: rgb(0, 0, 0);
+                    font-size: 23px;
+                    position: relative;
+                    top: 10px;
+                } 
+        }
+    }
+
+    .FilaButton__Button:hover{
+        height: 80px;
+        width: 180px;
+        border-radius: 50px;
+        background-color: rgb(11, 202, 11);
+        position: relative;
+        top: 10px;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.685); 
+    }
+//----------------🔶FilaButton🔶----------------
+}
+
+//----------------🔶FilaPublicidad🔶----------------
+
+                .FilaPublicidad{
+                    height: 100px;
+                    width: 100%;
+                    background-color: map-get($DeFilaPublicidad, FilaPublicidad);
+                    display: flex;
+                    justify-content: center;
+
+                    .oferta{
+                        font-family: "fuenteC";
+                        color: rgb(0, 0, 0);
+                        font-size: 50px;
+                        position: relative;
+                        top: 25px;
+                        text-shadow: 5px 2px 4px rgba(99, 99, 99, 0.342);
+                    }
+                }
+//----------------🔶FilaPublicidad🔶----------------
+
+        .FilaHoteles{
+            display: none;
+        }
+
+        .FilaHoteles2{
+            display: none;
+        }
+
+        .FilaHoteles3{
+            display: none;
+        }
+
+//----------⭐FilaHotelesTablet⭐----------
+        .HotelesTablet{
+
+            .FilaHotelesTablet{
+                height: 280px;
+                width: 100%;
+                background-color: map-get($Filashoteles, FilaHoteles);
+                display: flex;
+                justify-content: space-evenly;
+    
+//----------------✅CardHotel1 - FilaHotelesTablet✅----------------
+                .FilaHotelesTablet__CardHotel1{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .FilTablet__MitadHotel1-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 1.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .FilTablet__FilaStar1{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .FilTablet__MitadHotel1-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHotelesTablet__CardHotel1:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel1 - FilaHotelesTablet✅----------------
+    
+
+//----------------✅CardHotel2 - FilaHotelesTablet✅----------------
+                .FilaHotelesTablet__CardHotel2{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .FilTablet__MitadHotel2-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 2.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .FilTablet__FilaStar2{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .FilTablet__MitadHotel2-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHotelesTablet__CardHotel2:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel2 - FilaHotelesTablet✅----------------
+
+    
+//----------------✅CardHotel3 - FilaHotelesTablet✅----------------
+                .FilaHotelesTablet__CardHotel3{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .FilTablet__MitadHotel3-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 3.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .FilTablet__FilaStar3{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .FilTablet__MitadHotel3-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHotelesTablet__CardHotel3:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel3 - FilaHotelesTablet✅----------------
+            }
+
+
+
+            .FilaHoteles2Tablet{
+                height: 280px;
+                width: 100%;
+                background-color: map-get($Filashoteles, FilaHoteles);
+                display: flex;
+                justify-content: space-evenly;
+    
+
+//----------------✅CardHotel1 - FilaHoteles2Tablet✅----------------
+                .FilaHoteles2Tablet__CardHotel1{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil2Tablet__MitadHotel1-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 4.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil2Tablet__FilaStar1{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil2Tablet__MitadHotel1-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles2Tablet__CardHotel1:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel1 - FilaHoteles2Tablet✅----------------
+
+
+//----------------✅CardHotel2 - FilaHoteles2Tablet✅----------------
+                .FilaHoteles2Tablet__CardHotel2{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil2Tablet__MitadHotel2-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 5.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil2Tablet__FilaStar2{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil2Tablet__MitadHotel2-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles2Tablet__CardHotel2:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel2 - FilaHoteles2Tablet✅----------------
+    
+
+//----------------✅CardHotel3 - FilaHoteles2Tablet✅----------------
+                .FilaHoteles2Tablet__CardHotel3{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil2Tablet__MitadHotel3-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 6.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil2Tablet__FilaStar3{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil2Tablet__MitadHotel3-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles2Tablet__CardHotel3:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel3 - FilaHoteles2Tablet✅----------------
+            }
+
+            .FilaHoteles3Tablet{
+                height: 280px;
+                width: 100%;
+                background-color: map-get($Filashoteles, FilaHoteles);
+                display: flex;
+                justify-content: space-evenly;
+    
+//----------------✅CardHotel1 - FilaHoteles3Tablet✅----------------
+                .FilaHoteles3Tablet__CardHotel1{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil3Tablet__MitadHotel1-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 7.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil3Tablet__FilaStar1{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil3Tablet__MitadHotel1-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles3Tablet__CardHotel1:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel1 - FilaHoteles3Tablet✅----------------
+    
+
+//----------------✅CardHotel2 - FilaHoteles3Tablet✅----------------
+                .FilaHoteles3Tablet__CardHotel2{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil3Tablet__MitadHotel2-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 8.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil3Tablet__FilaStar2{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil3Tablet__MitadHotel2-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles3Tablet__CardHotel2:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel2 - FilaHoteles3Tablet✅----------------
+    
+
+//----------------✅CardHotel3 - FilaHoteles3Tablet✅----------------
+                .FilaHoteles3Tablet__CardHotel3{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil3Tablet__MitadHotel3-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 9.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil3Tablet__FilaStar3{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil3Tablet__MitadHotel3-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles3Tablet__CardHotel3:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel3 - FilaHoteles3Tablet✅----------------
+            }
+
+            .FilaHoteles4Tablet{
+                height: 280px;
+                width: 100%;
+                background-color: map-get($Filashoteles, FilaHoteles);
+                display: flex;
+                justify-content: space-evenly;
+    
+//----------------✅CardHotel1 - FilaHoteles4Tablet✅----------------
+                .FilaHoteles4Tablet__CardHotel1{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil4Tablet__MitadHotel1-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 10.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil4Tablet__FilaStar1{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil4Tablet__MitadHotel1-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles4Tablet__CardHotel1:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel1 - FilaHoteles4Tablet✅----------------
+
+
+//----------------✅CardHotel2 - FilaHoteles4Tablet✅----------------
+                .FilaHoteles4Tablet__CardHotel2{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil4Tablet__MitadHotel2-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 11.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil4Tablet__FilaStar2{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil4Tablet__MitadHotel2-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles4Tablet__CardHotel2:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel2 - FilaHoteles4Tablet✅----------------
+
+
+//----------------✅CardHotel3 - FilaHoteles4Tablet✅----------------
+                .FilaHoteles4Tablet__CardHotel3{
+                    height: 250px;
+                    width: 200px;
+                    border-radius: 30px;
+                    background-color: map-get($Filashoteles, CardHoteles);
+                    position: relative;
+                    top: 15px;
+                    transition: 0.5s;
+                    object-fit: cover;
+
+                    .Fil4Tablet__MitadHotel3-1{
+                        background-image: url("../Imagenes/IMG-Alojamiento/Hotel 12.jpg");
+                        @include Bg;
+                        @include MitadHotelTabletTop;
+
+                        .Fil4Tablet__FilaStar3{
+                            @include FilaStarTablet;
+                        }
+                    }
+
+                    .Fil4Tablet__MitadHotel3-2{
+                        @include MitadHotelTabletBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotelTablet1;
+
+                            .TituloHotelTB{                        
+                                @include TituloHotel;
+                            }
+                        }
+                        
+                        .SubMitadHotel2{
+                            @include SubMitadHotelTablet2;
+
+                            .PrecioHotelTB{
+                                @include PrecioHotel;
+                            }
+                        }
+                    }
+                }
+
+                .FilaHoteles4Tablet__CardHotel3:hover{
+                    transform: scale(1.1);
+                    box-shadow: 8px 12px 4px rgba(0, 0, 0, 0.342); 
+                }
+//----------------✅CardHotel3 - FilaHoteles4Tablet✅----------------
+            }
+            
+        }
+//----------⭐FilaHotelesTablet⭐----------
+
+        .TituloHotelMD{
+            display: none;
+        }
+
+        .PrecioHotelMD{
+            display: none;
+        }
+
+        .TituloHotelSM{
+            display: none;
+        }
+
+        .PrecioHotelSM{
+            display: none;
+        }
+        
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📖Media query Tablets📖 -------------
+
+
+// ------------- 📘Media query PC📘 -------------
+@media(min-width: 992px) and (max-width: 1337px){ 
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+.main-Alj{
+
+    .main__Plantilla-Alj{
+        margin-top: 90px;
+        height: 100%;
+
+        .Mq-Titulo-Alj{
+            height: 65px;
+            width: 100%;
+            background-color: rgba(0, 183, 255, 0);
+
+            .Titulo_Alj{
+                font-size: 45px;
+            }
+        }
+
+        .FilaForm{
+            height: 405px;
+            width: 100%;  
+            background-color: map-get($DeCuadroForm, FilaForm);
+            display: flex;
+            justify-content: center;
+
+            .CuadroForm{
+                height: 358px;
+                width: 800px;
+                background-color: map-get($DeCuadroForm, CuadroForm);
+                position: relative;
+                top: 24px;
+                border-radius: 50px;
+
+                .CuadroForm__Fila1{
+                    height: 179px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroForm, Fila1);
+                    @include RadiusTop;
+                }
+
+                .CuadroForm__Fila2{
+                    height: 179px;
+                    width: 100%;
+                    background-color: map-get($DeCuadroForm, Fila2);
+                    @include RadiusBottom;
+                }
+        }
+
+        }
+
+
+//----------------⭐FilaHoteles⭐----------------
+        .FilaHoteles{
+            height: 300px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+
+//----------------✅CardHotel1  -  FilaHoteles✅----------------
+            .FilaHoteles__CardHotel1{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil1__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 1.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil1__FilaStar1{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil1__MitadHotel1-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel1  -  FilaHoteles✅----------------
+
+
+//----------------✅CardHotel2  -  FilaHoteles✅----------------
+            .FilaHoteles__CardHotel2{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil1__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 2.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil1__FilaStar2{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil1__MitadHotel2-2{
+                    @include MitadHotelBottom;
+
+                        .SubMitadHotel1{
+                            @include SubMitadHotel1;
+
+                            .TituloHotel{
+                                @include TituloHotel;
+                            }
+                        }
+
+                        .SubMitadHotel2{
+                            @include SubMitadHotel2;
+
+                            .PrecioHotel{
+                                @include PrecioHotel;
+                            }
+                        }
+                }
+
+            }
+//----------------✅CardHotel2  -  FilaHoteles✅----------------
+
+
+//----------------✅CardHotel3  -  FilaHoteles✅----------------
+            .FilaHoteles__CardHotel3{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil1__MitadHotel3-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 3.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil1__FilaStar3{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil1__MitadHotel3-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+
+            }
+//----------------✅CardHotel3  -  FilaHoteles✅----------------
+
+
+//----------------✅CardHotel4  -  FilaHoteles✅----------------
+            .FilaHoteles__CardHotel4{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil1__MitadHotel4-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 4.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil1__FilaStar4{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil1__MitadHotel4-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+
+            }
+//----------------✅CardHotel4  -  FilaHoteles✅----------------
+        }
+
+
+
+        .FilaHoteles2{
+            height: 300px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+//----------------✅CardHotel1  -  FilaHoteles2✅----------------
+            .FilaHoteles2__CardHotel1{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil2__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 5.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil2__FilaStar1{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil2__MitadHotel1-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{                        
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel1  -  FilaHoteles2✅----------------
+
+
+//----------------✅CardHotel2  -  FilaHoteles2✅----------------
+            .FilaHoteles2__CardHotel2{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil2__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 6.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil2__FilaStar2{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil2__MitadHotel2-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{                        
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel2  -  FilaHoteles2✅----------------
+
+
+//----------------✅CardHotel3  -  FilaHoteles2✅----------------
+            .FilaHoteles2__CardHotel3{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil2__MitadHotel3-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 7.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil2__FilaStar3{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil2__MitadHotel3-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{                        
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel3  -  FilaHoteles2✅----------------
+
+
+//----------------✅CardHotel4  -  FilaHoteles2✅----------------
+            .FilaHoteles2__CardHotel4{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil2__MitadHotel4-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 8.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil2__FilaStar4{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil2__MitadHotel4-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{                        
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel4  -  FilaHoteles2✅----------------
+        }
+
+
+
+        .FilaHoteles3{
+            height: 300px;
+            width: 100%;
+            background-color: map-get($Filashoteles, FilaHoteles);
+            display: flex;
+            justify-content: space-evenly;
+
+
+//----------------✅CardHotel1  -  FilaHoteles3✅----------------
+            .FilaHoteles3__CardHotel1{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil3__MitadHotel1-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 9.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil3__FilaStar1{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil3__MitadHotel1-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{                        
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel1  -  FilaHoteles3✅----------------
+
+
+    //----------------✅CardHotel2  -  FilaHoteles3✅----------------
+            .FilaHoteles3__CardHotel2{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil3__MitadHotel2-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 10.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil3__FilaStar2{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil3__MitadHotel2-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{                        
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel2  -  FilaHoteles3✅----------------
+
+
+//----------------✅CardHotel3  -  FilaHoteles3✅----------------
+            .FilaHoteles3__CardHotel3{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil3__MitadHotel3-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 11.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil3__FilaStar3{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil3__MitadHotel3-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{                        
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel3  -  FilaHoteles3✅----------------
+
+
+//----------------✅CardHotel4  -  FilaHoteles3✅----------------
+            .FilaHoteles3__CardHotel4{
+                height: 270px;
+                width: 230px;
+                border-radius: 30px;
+                background-color: map-get($Filashoteles, CardHoteles);
+                position: relative;
+                top: 15px;
+
+                .Fil3__MitadHotel4-1{
+                    background-image: url("../Imagenes/IMG-Alojamiento/Hotel 12.jpg");
+                    @include Bg;
+                    @include MitadHotelTop;
+
+                    .Fil3__FilaStar4{
+                        @include FilaStar;
+                    }
+                }
+
+                .Fil3__MitadHotel4-2{
+                    @include MitadHotelBottom;
+
+                    .SubMitadHotel1{
+                        @include SubMitadHotel1;
+
+                        .TituloHotel{                        
+                            @include TituloHotel;
+                        }
+                    }
+
+                    .SubMitadHotel2{
+                        @include SubMitadHotel2;
+
+                        .PrecioHotel{                         
+                            @include PrecioHotel;
+                        }
+                    }
+                }
+            }
+//----------------✅CardHotel4  -  FilaHoteles3✅----------------
+        }
+//----------------⭐FilaHoteles⭐----------------
+    }
+
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📘Media query PC📘 -------------

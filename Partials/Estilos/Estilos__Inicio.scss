@@ -1,0 +1,1117 @@
+/* Inicio del reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Final del reset */
+
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(3, 155, 243);
+    z-index: 1;
+
+
+.header__Cuadro{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(240, 68, 68, 0);
+
+    .Cuadro__HeaderLogo{
+        height: 75px;
+        width: 300px;
+        background-image: url("../Imagenes/Header-y-Footer/LogoHeader.png");
+        @include Bg;
+        background-color: rgba(255, 0, 0, 0);
+        position: fixed;
+        right: 0;
+        top: 8px;
+        left: 10px;
+    }
+
+    .Cuadro__Espacio1{
+        height: 90px;
+        width: 50px;
+        background-color: rgba(238, 255, 0, 0);
+    }
+
+    .Cuadro__Espacio2{
+        height: 90px;
+        width: 100%;
+        background-color: rgba(12, 226, 241, 0);
+
+            .Menu {
+                list-style: none;
+                display: flex;
+                position: relative;
+                top: 25px;
+                left: 3px;
+
+            .Menu__List{
+                display: inline-block;
+                text-align: center;
+                width: 600px;
+                position:relative;
+                right: 20px;
+                font-size: 23px;
+                transition: 0.5s;
+                object-fit: cover;
+                
+                .Link{
+                    @include Link;
+                }
+            }
+
+            .Menu__List:hover{
+                transform: scale(1.1);
+            }
+        }
+
+    }
+}
+} 
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+
+
+
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+
+    .main__Plantilla{
+        height: 100%;
+        width: 100%;
+        background-color: map-get($main__Plantilla, Plantilla);
+        margin-top: 90px;
+        margin-bottom: 90px;
+
+//----------------🟡MqText🟡----------------
+.MqText{
+    height: 325px;
+    width: 100%;
+    background-color: map-get($MqInicio, MqText);
+    margin-right: 10px;
+
+    .MqText__CuadroText{
+        height: 300px;
+        width: 680px;
+        margin-right: 8px;
+        margin-top: 16px;
+        @include CuadrosInicio;
+
+        .TituloInicio{
+            font-size: 70px;
+            font-family: "fuenteB";
+            text-shadow: 5px 6px 4px rgba(77, 77, 77, 0.288); 
+        }
+    }
+}
+//----------------🟡MqText🟡----------------
+
+
+//----------------🟡MqIMG1🟡----------------
+.MqIMG1{
+    height: 300px;
+    width: 100%;
+    background-color: map-get($MqInicio, MqIMG1);
+
+    .MqIMG1__CuadroIMG1{
+        height: 250px;
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+        @include CuadrosInicio;
+
+        .IMG1{
+            height: 250px;
+            width: 250px;
+            background-image: url("../Imagenes/IMG-Inicio/Avión.png");
+        }
+
+         /* --------------🌐Animación🌐-------------- */
+        .IMG1:hover {
+            animation: volar 1.5s; 
+            animation-iteration-count: infinite;
+
+        @keyframes volar {
+            0% {
+                transform: translateX(10px);
+            }
+
+            10% {
+                transform: translateX(20px);
+            }
+
+            20% {
+                transform: translateX(35px);
+            }
+
+            40% {
+                transform: translateX(55px);
+            } 
+
+            50% {
+                transform: translateX(65px);
+            }
+
+            60% {
+                transform: translateX(75px);
+            }
+
+            70% {
+                transform: translateX(85px);
+            } 
+
+            80% {
+                transform: translateX(95px);
+            } 
+
+            90% {
+                transform: translateX(105px);
+            } 
+
+            100% {
+                transform: translateX(120px);
+            } 
+        }
+    }    
+    /* --------------🌐Animación🌐-------------- */
+    }
+
+}
+//----------------🟡MqIMG1🟡----------------
+
+
+//----------------🟡MqIMG2🟡----------------
+.MqIMG2{
+    height: 259px;
+    width: 100%;
+    background-color: map-get($MqInicio, MqIMG2);
+
+    .MqIMG2__CuadroIMG2{
+        height: 250px;
+        width: 250px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        @include CuadrosInicio;
+
+        .IMG2{
+            height: 250px;
+            width: 250px;
+            background-image: url("../Imagenes/IMG-Inicio/Maletas.png");
+        }
+
+        /* --------------🌐Animación🌐-------------- */
+        .IMG2:hover {
+            animation: batir 0.5s; 
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes batir {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg);
+            }
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+            }
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+            }
+            30% {
+                transform: translate(3px, 2px) rotate(0deg);
+            }
+            40% {
+                transform: translate(1px, -1px) rotate(1deg);
+            }
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+            }
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+            }
+            80% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+            90% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+            } 
+        }
+        /* --------------🌐Animación🌐-------------- */
+    }
+
+}
+//----------------🟡MqIMG2🟡----------------
+    }
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+
+
+
+// ⸻----⸻𝗙𝗼𝗼𝘁𝗲𝗿⸻----⸻
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    
+        .footer__Cuadro{
+            height: 90px;
+            width: 50px;
+            background-color: rgba(47, 7, 226, 0);
+            position: relative;
+            right: 12px;
+    
+            .Cuadro__FooterLogo{
+                height: 55px;
+                width: 340px;
+                background-image: url("../Imagenes/Header-y-Footer/LogoFooter.png");
+                @include Bg;
+                background-color: rgba(107, 107, 107, 0);
+                position:fixed;
+                bottom: 18px;
+                left: 20px;
+            }
+        }
+    }
+// ⸻----⸻𝗙𝗼𝗼𝘁𝗲𝗿⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+
+// ------------- 📕Media query moviles muy pequeños📕 -------------
+
+@media (max-width: 576px){      
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+    header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: rgb(3, 155, 243);
+    
+    .header__Cuadro{
+        height: 80px;
+        width: 100%;
+        background-color: rgba(240, 68, 68, 0);
+
+        .Cuadro__HeaderLogo{
+            height: 35px;
+            width: 170px;
+            background-image: url("../Imagenes/Header-y-Footer/LogoHeader.png");
+            @include Bg;
+            background-color: rgba(0, 255, 76, 0);
+            position: fixed;
+            bottom: 10px;
+        }
+    
+        .Cuadro__Espacio1{
+            height: 50px;
+            width: 50px;
+            background-color: rgba(255, 0, 234, 0);
+        }
+    
+        .Cuadro__Espacio2{
+            height: 45px;
+            width: 100%;
+            background-color: rgba(245, 139, 139, 0);
+
+            .Menu {
+                list-style: none;
+                display: flex;
+                position: relative;
+                bottom: 10px;
+
+            .Menu__List{
+                display: inline-block;
+                width: 600px;
+                position:relative;
+                right: 40px;
+                bottom: 35px;
+                font-size: 14px;
+                
+                .Link{
+                    @include Link;
+                }
+            }
+        }
+            
+        }
+    }
+    
+    }
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+
+
+
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+
+.main__Plantilla{
+    height: 100%;
+    width: 100%;
+    background-color: map-get($main__Plantilla, Plantilla);
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+//----------------🟡MqText🟡----------------
+.MqText{
+height: 215px;
+width: 100%;
+background-color: map-get($MqInicio, MqText);
+margin-right: 10px;
+
+.MqText__CuadroText{
+    height: 210px;
+    width: 340px;
+    margin-right: 8px;
+    margin-top: 10px;
+    @include CuadrosInicio;
+
+    .TituloInicio{
+        font-size: 48px;
+        font-family: "fuenteB";
+    }
+}
+}
+//----------------🟡MqText🟡----------------
+
+
+//----------------🟡MqIMG1🟡----------------
+.MqIMG1{
+height: 190px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG1);
+
+.MqIMG1__CuadroIMG1{
+    height: 170px;
+    width: 195px;
+    margin-top: 10px;
+    @include CuadrosInicio;
+
+    .IMG1{
+        height: 170px;
+        width: 195px;
+        background-image: url("../Imagenes/IMG-Inicio/Avión_MobileXS.png");
+        @include Bg;
+    }
+}
+
+}
+//----------------🟡MqIMG1🟡----------------
+
+
+//----------------🟡MqIMG2🟡----------------
+.MqIMG2{
+height: 200px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG2);
+display: flex;
+justify-content: center;
+
+.MqIMG2__CuadroIMG2{
+    height: 190px;
+    width: 190px;
+    //margin-bottom: 15px;
+    //margin-left: 20px;
+    @include CuadrosInicio;
+
+    .IMG2{
+        height: 190px;
+        width: 190px;
+        background-image: url("../Imagenes/IMG-Inicio/Maletas_MobileXS.png");
+        @include Bg;
+    }
+}
+
+}
+//----------------🟡MqIMG2🟡----------------
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+
+
+@media(min-width: 417px) and (max-width: 577px){      
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+    header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: rgb(3, 155, 243);
+    
+    .header__Cuadro{
+        height: 90px;
+        width: 100%;
+        background-color: rgba(240, 68, 68, 0);
+
+        .Cuadro__HeaderLogo{
+            height: 50px;
+            width: 210px;
+            background-image: url("../Imagenes/Header-y-Footer/LogoHeader.png");
+            @include Bg;
+            background-color: rgba(0, 255, 76, 0);
+            position: fixed;
+            bottom: 10px;
+            margin-bottom: 5px;
+        }
+    
+        .Cuadro__Espacio1{
+            height: 50px;
+            width: 50px;
+            background-color: rgba(255, 0, 234, 0);
+        }
+    
+        .Cuadro__Espacio2{
+            height: 45px;
+            width: 100%;
+            background-color: rgba(50, 126, 6, 0);
+
+            .Menu {
+                list-style: none;
+                display: flex;
+                position: relative;
+                bottom: 10px;
+                justify-content: center;
+
+            .Menu__List{
+                display: inline-block;
+                width: 600px;
+                position:relative;
+                right: 35px;
+                bottom: 25px;
+                font-size: 14px;
+                
+                .Link{
+                    @include Link;
+                }
+            }
+        }
+            
+        }
+    }
+    
+    }
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+
+
+
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+
+.main__Plantilla{
+    height: 100%;
+    width: 100%;
+    background-color: map-get($main__Plantilla, Plantilla);
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+//----------------🟡MqText🟡----------------
+.MqText{
+height: 325px;
+width: 100%;
+background-color: map-get($MqInicio, MqText);
+margin-right: 10px;
+
+.MqText__CuadroText{
+    height: 300px;
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 16px;
+    @include CuadrosInicio;
+
+    .TituloInicio{
+        font-size: 58px;
+        font-family: "fuenteB";
+    }
+}
+}
+//----------------🟡MqText🟡----------------
+
+
+//----------------🟡MqIMG1🟡----------------
+.MqIMG1{
+height: 240px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG1);
+
+.MqIMG1__CuadroIMG1{
+    height: 200px;
+    width: 230px;
+    margin-top: 10px;
+    @include CuadrosInicio;
+
+    .IMG1{
+        height: 200px;
+        width: 230px;
+        background-image: url("../Imagenes/IMG-Inicio/Avión_Mobile.png");
+    }
+}
+
+}
+//----------------🟡MqIMG1🟡----------------
+
+
+//----------------🟡MqIMG2🟡----------------
+.MqIMG2{
+height: 239px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG2);
+display: flex;
+justify-content: center;
+
+.MqIMG2__CuadroIMG2{
+    height: 230px;
+    width: 230px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    @include CuadrosInicio;
+
+    .IMG2{
+        height: 230px;
+        width: 230px;
+        background-image: url("../Imagenes/IMG-Inicio/Maletas_Mobile.png");
+    }
+}
+
+}
+//----------------🟡MqIMG2🟡----------------
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📕Media query moviles muy pequeños📕 -------------
+
+
+// ------------- 📕Media query moviles pequeños📕 -------------
+@media(min-width: 576px) and (max-width: 767px){    
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+    header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: rgb(3, 155, 243);
+    
+    
+    .header__Cuadro{
+        height: 80px;
+        width: 100%;
+        background-color: rgba(240, 68, 68, 0);
+
+        .Cuadro__HeaderLogo{
+            height: 50px;
+            width: 210px;
+            background-image: url("../Imagenes/Header-y-Footer/LogoHeader.png");
+            @include Bg;
+            background-color: rgba(0, 255, 76, 0);
+            position: fixed;
+            bottom: 10px;
+        }
+    
+        .Cuadro__Espacio1{
+            height: 50px;
+            width: 50px;
+            background-color: rgba(0, 255, 13, 0);
+        }
+    
+        .Cuadro__Espacio2{
+            height: 45px;
+            width: 100%;
+            background-color: rgba(195, 10, 219, 0);
+            
+                .Menu {
+                    list-style: none;
+                    display: flex;
+                    position: relative;
+                    bottom: 20px;
+
+                .Menu__List{
+                    display: inline-block;
+                    text-align: center;
+                    width: 600px;
+                    position:relative;
+                    right: 20px;
+                    bottom: 25px;
+                    font-size: 16px;
+                    
+                    .Link{
+                        @include Link;
+                    }
+                }
+            }
+
+        }
+    }
+    
+    }
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+
+
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+
+.main__Plantilla{
+    height: 100%;
+    width: 100%;
+    background-color: map-get($main__Plantilla, Plantilla);
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+//----------------🟡MqText🟡----------------
+.MqText{
+height: 325px;
+width: 100%;
+background-color: map-get($MqInicio, MqText);
+margin-right: 10px;
+
+.MqText__CuadroText{
+    height: 300px;
+    width: 600px;
+    margin-right: 8px;
+    margin-top: 16px;
+    @include CuadrosInicio;
+
+    .TituloInicio{
+        font-size: 83px;
+        font-family: "fuenteB";
+    }
+}
+}
+//----------------🟡MqText🟡----------------
+
+
+//----------------🟡MqIMG1🟡----------------
+.MqIMG1{
+height: 300px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG1);
+
+.MqIMG1__CuadroIMG1{
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    @include CuadrosInicio;
+
+    .IMG1{
+        height: 250px;
+        width: 250px;
+        background-image: url("../Imagenes/IMG-Inicio/Avión.png");
+    }
+}
+
+}
+//----------------🟡MqIMG1🟡----------------
+
+
+//----------------🟡MqIMG2🟡----------------
+.MqIMG2{
+height: 259px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG2);
+display: flex;
+justify-content: center;
+
+.MqIMG2__CuadroIMG2{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    @include CuadrosInicio;
+
+    .IMG2{
+        height: 250px;
+        width: 250px;
+        background-image: url("../Imagenes/IMG-Inicio/Maletas.png");
+    }
+}
+
+}
+//----------------🟡MqIMG2🟡----------------
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+
+
+@media(min-width: 576px) and (max-width: 643px){     
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+    header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: rgb(3, 155, 243);
+    
+    
+    .header__Cuadro{
+        height: 80px;
+        width: 100%;
+        background-color: rgba(240, 68, 68, 0);
+
+        .Cuadro__HeaderLogo{
+            height: 50px;
+            width: 210px;
+            background-image: url("../Imagenes/Header-y-Footer/LogoHeader.png");
+            @include Bg;
+            background-color: rgba(0, 255, 76, 0);
+            position: fixed;
+            bottom: 15px;
+        }
+    
+        .Cuadro__Espacio1{
+            height: 50px;
+            width: 50px;
+            background-color: rgba(0, 255, 13, 0);
+        }
+    
+        .Cuadro__Espacio2{
+            height: 45px;
+            width: 100%;
+            background-color: rgba(29, 6, 240, 0);
+            
+                .Menu {
+                    list-style: none;
+                    display: flex;
+                    position: relative;
+                    bottom: 10px;
+
+                .Menu__List{
+                    display: inline-block;
+                    text-align: center;
+                    width: 600px;
+                    position:relative;
+                    right: 20px;
+                    bottom: 20px;
+                    font-size: 14px;
+                    
+                    .Link{
+                        @include Link;
+                    }
+                }
+            }
+
+        }
+    }
+    
+    }
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+
+
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+
+.main__Plantilla{
+    height: 100%;
+    width: 100%;
+    background-color: map-get($main__Plantilla, Plantilla);
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+//----------------🟡MqText🟡----------------
+.MqText{
+height: 325px;
+width: 100%;
+background-color: map-get($MqInicio, MqText);
+margin-right: 10px;
+
+.MqText__CuadroText{
+    height: 300px;
+    width: 550px;
+    margin-right: 8px;
+    margin-top: 16px;
+    @include CuadrosInicio;
+
+    .TituloInicio{
+        font-size: 73px;
+        font-family: "fuenteB";
+    }
+}
+}
+//----------------🟡MqText🟡----------------
+
+
+//----------------🟡MqIMG1🟡----------------
+.MqIMG1{
+height: 240px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG1);
+
+.MqIMG1__CuadroIMG1{
+    height: 200px;
+    width: 230px;
+    margin-top: 10px;
+    @include CuadrosInicio;
+
+    .IMG1{
+        height: 200px;
+        width: 230px;
+        background-image: url("../Imagenes/IMG-Inicio/Avión_Mobile.png");
+    }
+}
+
+}
+//----------------🟡MqIMG1🟡----------------
+
+
+//----------------🟡MqIMG2🟡----------------
+.MqIMG2{
+height: 239px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG2);
+display: flex;
+justify-content: center;
+
+.MqIMG2__CuadroIMG2{
+    height: 230px;
+    width: 230px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    @include CuadrosInicio;
+
+    .IMG2{
+        height: 230px;
+        width: 230px;
+        background-image: url("../Imagenes/IMG-Inicio/Maletas_Mobile.png");
+    }
+}
+
+}
+//----------------🟡MqIMG2🟡----------------
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📕Media query moviles pequeños📕 -------------
+
+
+// ------------- 📖Media query Tablets📖 -------------
+@media(min-width: 768px) and (max-width: 991px){    
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+    header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: rgb(3, 155, 243);
+    
+    
+    .header__Cuadro{
+        height: 90px;
+        width: 100%;
+        background-color: rgba(240, 68, 68, 0);
+    
+        .Cuadro__Espacio1{
+            height: 90px;
+            width: 50px;
+            background-color: rgba(238, 255, 0, 0);
+        }
+    
+        .Cuadro__Espacio2{
+            height: 90px;
+            width: 100%;
+            background-color: rgba(0, 255, 242, 0);
+
+            .Menu {
+                list-style: none;
+                display: flex;
+                position: relative;
+                top: 20px;
+
+            .Menu__List{
+                display: inline-block;
+                text-align: center;
+                width: 600px;
+                position:relative;
+                right: 30px;
+                font-size: 15px;
+                
+                .Link{
+                    @include Link;
+                }
+            }
+        }
+                
+        }
+    }
+    }
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+
+
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+
+.main__Plantilla{
+    height: 100%;
+    width: 100%;
+    background-color: map-get($main__Plantilla, Plantilla);
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+//----------------🟡MqText🟡----------------
+.MqText{
+height: 325px;
+width: 100%;
+background-color: map-get($MqInicio, MqText);
+margin-right: 10px;
+
+.MqText__CuadroText{
+    height: 300px;
+    width: 500px;
+    margin-right: 8px;
+    margin-top: 16px;
+    @include CuadrosInicio;
+
+    .TituloInicio{
+        font-size: 70px;
+        font-family: "fuenteB";
+    }
+}
+}
+//----------------🟡MqText🟡----------------
+
+
+//----------------🟡MqIMG1🟡----------------
+.MqIMG1{
+height: 260px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG1);
+
+.MqIMG1__CuadroIMG1{
+    height: 150px;
+    width: 180px;
+    margin-top: 90px;
+    margin-left: 30px;
+    @include CuadrosInicio;
+
+    .IMG1{
+        height: 150px;
+        width: 180px;
+        background-image: url("../Imagenes/IMG-Inicio/Avión_Tablet.png");
+        @include Bg;
+    }
+}
+
+}
+//----------------🟡MqIMG1🟡----------------
+
+
+//----------------🟡MqIMG2🟡----------------
+.MqIMG2{
+height: 259px;
+width: 100%;
+background-color: map-get($MqInicio, MqIMG2);
+
+.MqIMG2__CuadroIMG2{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    @include CuadrosInicio;
+
+    .IMG2{
+        height: 250px;
+        width: 250px;
+        background-image: url("../Imagenes/IMG-Inicio/Maletas.png");
+    }
+}
+
+}
+//----------------🟡MqIMG2🟡----------------
+}
+// ⸻----⸻𝗠𝗮𝗶𝗻⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📖Media query Tablets📖 -------------
+
+
+// ------------- 📘Media query PC📘 -------------
+@media(min-width: 992px) and (max-width: 1337px){   
+
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+.Container-index{
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+    header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: rgb(3, 155, 243);
+    
+    
+    .header__Cuadro{
+        height: 90px;
+        width: 100%;
+        background-color: rgba(240, 68, 68, 0);
+    
+        .Cuadro__Espacio1{
+            height: 90px;
+            width: 50px;
+            background-color: rgba(238, 255, 0, 0);
+        }
+    
+        .Cuadro__Espacio2{
+            height: 90px;
+            width: 100%;
+            background-color: rgba(255, 208, 0, 0);
+
+            .Menu {
+                list-style: none;
+                display: flex;
+                position: relative;
+                top: 15px;
+
+            .Menu__List{
+                display: inline-block;
+                text-align: center;
+                width: 600px;
+                position:relative;
+                right: 30px;
+                font-size: 18px;
+                
+                .Link{
+                    @include Link;
+                }
+            }
+        }
+                
+        }
+    }
+    }
+// ⸻----⸻𝗛𝗲𝗮𝗱𝗲𝗿⸻----⸻
+}
+// ⸻----⸻✅𝗖𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿✅⸻----⸻
+
+}
+// ------------- 📘Media query PC📘 -------------
